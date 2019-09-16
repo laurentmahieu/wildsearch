@@ -1,12 +1,16 @@
 body{
-    background-color: silver;
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+
 }
 aside{
-    width:25%;
+    width:20%;
+    background-color: pink;
     
 }
 
 .main{
     width: 75%;
 }
-
