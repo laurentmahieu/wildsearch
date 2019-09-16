@@ -1,19 +1,49 @@
 body{
     background-color: whitesmoke;
-}
-.container{
     display: flex;
-
+    font-family: font-family:helvetica,arial,sans-serif;
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: gold;
 }
 aside{
-    width:20%;
-    background-color: pink;
-}
-aside article{
-    width: 75%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f99797;
+    
 }
 
-.main{
-    width: 75%;
+aside section ul li{
+    list-style: none;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+}
+
+aside a:hover{
+    font-weight: 600;
+}
+.alphabet{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+main{
+    margin: 1em;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+main input{
+    width:50%;
+    margin:auto;
 }
