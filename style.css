@@ -8,7 +8,10 @@ body{
 aside{
     width:20%;
     background-color: pink;
-    
+}
+aside article{
+    width: 75%;
+    margin: auto;
 }
 
 .main{
