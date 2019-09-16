@@ -1,16 +1,35 @@
 body{
     background-color: whitesmoke;
-}
-.container{
     display: flex;
-
 }
+
 aside{
-    width:20%;
-    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    background-color: #f99797;
     
 }
 
-.main{
-    width: 75%;
+aside section ul li{
+    list-style: none;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+}
+
+aside a:hover{
+    font-weight: 600;
+}
+.alphabet{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+main{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
 }
