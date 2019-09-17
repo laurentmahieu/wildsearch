@@ -1,18 +1,48 @@
-*{
+:root {
+    --salmon,
+    #f99797;
+    --darkSalmon,
+    #ff4b4b;
+    --lightSalmon,
+    #faa5a5;
+    --blue,
+    #3caada;
+    --redButton,
+    #fc3e39;
+    --background,
+    #f9f9f9;
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: whitesmoke;
-    display: flex;
+body {
+    display: grid;
+    grid-template-columns: calc(100vw /5) auto;
+    grid-template-rows: auto calc(100vh /8);
 }
 
 
-
-main{
-    margin: 1em;
+main {
+    background-color: var(--blue);
     display: flex;
     flex-direction: column;
+    padding: 0 1em;
+    padding-top: 2em;
+}
+
+main>img {
+    width: 678px;
+    height: 151px;
+    margin: 0 auto;
+
+
+}
+
+footer {
+    background-color: var(--blue);
+    grid-column: 2/3;
 }
