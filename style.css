@@ -1,26 +1,28 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-<<<<<<< HEAD
+main {
+    margin:10%;
+    }
+
+img{
+    display: inline;
+    justify-content:center;
+}
+article {
+    font-size: 14pt;
+    padding: 20px;
+    background-color: greylight;
+    border: 4px solid #ee9a74;
+  
+ 
+}
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-body{
-    background-color: whitesmoke;
-    display: flex;
-=======
->>>>>>> 0d0ca23b7fa66c5a22996ec85444eea59914a7d1
-}
-
-body{
-    background-color: whitesmoke;
-    display: flex;
-}
-
-
-
-main{
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
+p {
+    font-size: 18ps;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1b1918;
+    
 }
