@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -7,35 +8,53 @@
 body{
     background-color: whitesmoke;
     display: flex;
+=======
+:root {
+    --salmon,
+    #f99797;
+    --darkSalmon,
+    #ff4b4b;
+    --lightSalmon,
+    #faa5a5;
+    --blue,
+    #3caada;
+    --redButton,
+    #fc3e39;
+    --background,
+    #f9f9f9;
+>>>>>>> bc91d4e5e702ae350bd02bf1cdcff96b4be64148
 }
 
-aside{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: calc(100vw /5) auto;
+    grid-template-rows: auto calc(100vh /8);
+}
+
+
+main {
+    background-color: var(--blue);
     display: flex;
     flex-direction: column;
-    background-color: #f99797;
-    
+    padding: 0 1em;
+    padding-top: 2em;
 }
 
-aside section ul li{
-    list-style: none;
+main>img {
+    width: 678px;
+    height: 151px;
+    margin: 0 auto;
+
+
 }
 
-aside a{
-    text-decoration: none;
-    color: black;
-}
-
-aside a:hover{
-    font-weight: 600;
-}
-.alphabet{
-    display: flex;
-    flex-flow: row wrap;
-    
-}
-
-main{
-    margin: 1em;
-    display: flex;
-    flex-direction: column;
+footer {
+    background-color: var(--blue);
+    grid-column: 2/3;
 }
