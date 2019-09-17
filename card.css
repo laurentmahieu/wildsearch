@@ -32,6 +32,7 @@ h3{
     font-size: 2em;
     font-weight: bold;
     text-decoration: underline;
+    font-family: "Varela round", sans-serif;
 }
 
 h4{
@@ -54,6 +55,10 @@ button{
 
 button:hover{
     background-color:  #ff4b4b;
+}
+
+h4, a{
+    font-family: "Raleway", sans serif;
 }
 
 @media screen and (max-width: 560px){
