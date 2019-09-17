@@ -8,16 +8,16 @@
 		left: 0px; /*idem pour attente*/
 	}
 	35% {
-		left: -678px; /*2ème image*/
+		left: -800px; /*2ème image*/
 	}
 	65% {
-		left: -678px; /*idem pour attente*/
+		left: -800px; /*idem pour attente*/
 	}
 	70% {
-		left: -1360px; /*3ème image*/
+		left: -1600px; /*3ème image*/
 	}
 	95% {
-		left: -1360px; /*idem pour attente*/
+		left: -1600px; /*idem pour attente*/
 	}
 	100% {
 		left: 0px; /*1ère image*/
@@ -25,7 +25,7 @@
 }
 #slideshow {
 	position: relative;
-	width: 678px;
+	width: 800px;
 	height: 500px;
 	margin:  50px 0 10px 40px;
 	overflow: hidden;
@@ -50,8 +50,65 @@
 .partone{
 
     display: inline-block;
-    width: 638px;
+    width: 760px;
 	height: 300px;
 	padding: 20px;
+}
 
+
+
+
+/*                CARDS                 */
+
+.card_def{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 1em 1em 0; 
+    background-color:#f3f3f3;
+    border-radius: 6px;
+    padding: 1em;
+	width: 90%;
+	height: 90%;
+}
+.logo_def{
+	margin: 3%;
+	margin-top: 15%;
+}
+.logo_def img{
+	width: 5em;
+}
+.first_view_def{
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 1.7em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h4{
+	font-size: 1.5em;
+    font-weight: bold;
+    margin: 1% 0% 1% 0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 30%;
+    background-color: #fc3e39;
+    color: #f9f9f9;
+    padding: 3px;
+    border-radius: 6px;
+    margin: 1em 0 0 0;
+
+}
+
+button:hover{
+    background-color:  #ff4b4b;
 }
