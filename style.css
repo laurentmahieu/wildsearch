@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i&display=swap');
+
 :root {
     --salmon: #f99797;
     --darkSalmon: #ff4b4b;
@@ -7,6 +9,7 @@
     --background: #f9f9f9;
 
 }
+
 
 * {
     padding: 0;
@@ -72,25 +75,34 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     }
+
  .left {
     display: flex;
-    text-align: center;
     justify-content: flex-start;
     margin: 1em;
     padding: 1em;
  }
+
  .left a{
-    margin-right: 5%;
-    color : #eee;
+    display: inline;
+    color :darkslategrey;
     font-weight: 700;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
  }
+
+ .left a:hover{
+     opacity: 0.7;
+
+ }
+
  .right{
     display:flex;
     justify-content: flex-end;
     margin-right: 10%;
     padding: 1em;
   }
+
  .right img{
     margin-left:1em;
  }
