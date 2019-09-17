@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i|Varela+Round&display=swap');
 
 :root {
     --salmon: #f99797;
@@ -7,7 +7,8 @@
     --blue: #3caada;
     --redButton: #fc3e39;
     --background: #f9f9f9;
-
+    --raleway: 'Raleway', sans-serif;
+    --valera: 'Varela Round', sans-serif;
 }
 
 
@@ -78,9 +79,10 @@ footer{
 
  .left {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin: 1em;
     padding: 1em;
+    width: 30em;
  }
 
  .left a{
@@ -88,7 +90,7 @@ footer{
     color :darkslategrey;
     font-weight: 700;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--valera);
  }
 
  .left a:hover{
@@ -99,10 +101,13 @@ footer{
  .right{
     display:flex;
     justify-content: flex-end;
-    margin-right: 10%;
     padding: 1em;
   }
 
  .right img{
     margin-left:1em;
+ }
+
+ .right a:hover{
+     opacity:0.7;
  }

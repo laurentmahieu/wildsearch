@@ -28,6 +28,7 @@ aside section{
 .theme img{
     width: 100px;
     height: 30px;
+    border-radius: 5px;
 }
 
 .theme img:hover{
@@ -44,7 +45,7 @@ aside section ul li{
 
 .theme a{
     color: black;
-    font-family: 'Raleway:600', sans-serif;
+    font-family: var(--varela);
     
     
 }
@@ -77,7 +78,7 @@ table a{
     font-size: 1.3em;
     font-weight: bold;
     margin: 0 2px;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--raleway);
     color: var(--darkSalmon);
 }
 
