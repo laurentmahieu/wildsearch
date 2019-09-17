@@ -4,20 +4,20 @@
 	0% {
 		left: 0px; /*1ère image*/
 	}
-	15% {
+	30% {
 		left: 0px; /*idem pour attente*/
 	}
 	35% {
-		left: -805px; /*2ème image*/
+		left: -678px; /*2ème image*/
 	}
-	50% {
-		left: -805px; /*idem pour attente*/
+	65% {
+		left: -678px; /*idem pour attente*/
 	}
 	70% {
-		left: -1610px; /*3ème image*/
+		left: -1360px; /*3ème image*/
 	}
-	85% {
-		left: -1610px; /*idem pour attente*/
+	95% {
+		left: -1360px; /*idem pour attente*/
 	}
 	100% {
 		left: 0px; /*1ère image*/
@@ -25,7 +25,7 @@
 }
 #slideshow {
 	position: relative;
-	width: 760px;
+	width: 678px;
 	height: 500px;
 	margin:  50px 0 10px 40px;
 	overflow: hidden;
@@ -50,7 +50,8 @@
 .partone{
 
     display: inline-block;
-    width: 800px;
-    height: 300px;
+    width: 638px;
+	height: 300px;
+	padding: 20px;
 
 }
