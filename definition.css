@@ -1,0 +1,55 @@
+
+
+/*img{
+    display: inline;
+    justify-content:center;
+} */
+article {
+    font-size: 1em;
+    padding: 20px;
+    
+  
+}
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    color:#3caada;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    border-radius: 3px;
+    }
+
+p {
+    font-size: 1em;
+    line-height: 2em;
+    padding: 10px;
+    margin-bottom: 1em;
+    border-bottom: 0.01em solid #9e948f;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+.def{
+    margin: 0;
+    border-bottom: none;
+    
+}
+
+#sources , #tags {
+    color: #3caada;
+}
+
+
+#tags a{
+    margin-left: 1em;
+}
+/*
+a{
+    padding: 1em;
+    text-decoration: none;
+}
+  a:hover {
+        outline-width: 0
+}
+*/

@@ -1,4 +1,3 @@
-
 aside{
     display: flex;
     flex-direction: column;
@@ -61,6 +60,7 @@ hr{
     color: darkslategrey;
     opacity: 0.8;
 }
+
 /* INDEX LETTERS */
 table{
     margin: 0 auto;
@@ -90,8 +90,3 @@ table a:hover{
 }
 /* END INDEX LETTERS */
 
-
-aside button{
-    width: 100%;
-    
-}
