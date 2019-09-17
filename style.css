@@ -35,7 +35,7 @@ main {
 main>img {
     width: 678px;
     height: 151px;
-    margin: 0 auto 1em auto;
+    margin: 1em auto 1em auto;
     border-radius: 10px;
 }
 
@@ -106,3 +106,120 @@ footer{
  .right img{
     margin-left:1em;
  }
+
+ /* -------------------carousel --------------------*/
+
+ @keyframes AutoSlide {
+	0% {
+		left: 0px; /*1ère image*/
+	}
+	30% {
+		left: 0px; /*idem pour attente*/
+	}
+	35% {
+		left: -800px; /*2ème image*/
+	}
+	65% {
+		left: -800px; /*idem pour attente*/
+	}
+	70% {
+		left: -1600px; /*3ème image*/
+	}
+	95% {
+		left: -1600px; /*idem pour attente*/
+	}
+	100% {
+		left: 0px; /*1ère image*/
+	}
+}
+#slideshow {
+	position: relative;
+	width: 800px;
+	height: 500px;
+	margin:  2.5em auto -7em auto;
+	overflow: hidden;
+}
+#sContent li{
+    display: inline;
+}
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 32000px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+.partone{
+
+  display: inline-block;
+  width: 800px;
+	height: 300px;
+	padding: 20px;
+}
+
+
+
+
+/*                CARDS                 */
+
+.card_def{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 1em 1em 0; 
+    background-color:#ebebeb;
+    border-radius: 6px;
+    padding: 1em;
+	width: 100%;
+	height: 100%;
+}
+.logo_def{
+	margin: 3%;
+	margin-top: 15%;
+}
+.logo_def img{
+	width: 5em;
+}
+.first_view_def{
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 1.7em;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+h4{
+	font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 30%;
+    background-color: #fc3e39;
+    color: #f9f9f9;
+    padding: 3px;
+    border-radius: 6px;
+    margin: 1em 0 0 0;
+
+}
+
+button:hover{
+    background-color:  #ff4b4b;
+}
