@@ -1,43 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: whitesmoke;
     display: flex;
 }
 
-aside{
-    display: flex;
-    flex-direction: column;
-    background-color: #f99797;
-    max-width: 25%;
-    
-}
-aside section{
-    padding: 0 1em;
-}
-aside section ul li{
-    list-style: none;
-}
 
-aside a{
-    text-decoration: none;
-    color: black;
-    
-}
-
-aside a:hover{
-    color: white;
-}
-
-.alphabet{
-    display: flex;
-    flex-flow: row wrap;
-    
-}
-
-textarea, input{ 
-    /* will prevent resizing horizontally */
-    resize: vertical;
-    max-width: 100%;
-}
 
 main{
     margin: 1em;

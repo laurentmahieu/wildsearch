@@ -1,0 +1,40 @@
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #f99797;
+    max-width: 25%;
+    min-height: 100vh;
+}
+aside img{
+    margin-bottom: 1em;
+}
+aside section{
+    padding: 0 1em;
+}
+
+aside section ul li{
+    list-style: none;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+aside a:hover{
+    color: white;
+}
+
+.alphabet{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+textarea, input{ 
+    /* will prevent resizing horizontally */
+    resize: vertical;
+    max-width: 100%;
+}
