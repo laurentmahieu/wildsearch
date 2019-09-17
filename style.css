@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
+}
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+=======
+>>>>>>> 0d0ca23b7fa66c5a22996ec85444eea59914a7d1
 }
 
 body{
@@ -9,30 +17,7 @@ body{
     display: flex;
 }
 
-aside{
-    display: flex;
-    flex-direction: column;
-    background-color: #f99797;
-    
-}
 
-aside section ul li{
-    list-style: none;
-}
-
-aside a{
-    text-decoration: none;
-    color: black;
-}
-
-aside a:hover{
-    font-weight: 600;
-}
-.alphabet{
-    display: flex;
-    flex-flow: row wrap;
-    
-}
 
 main{
     margin: 1em;
