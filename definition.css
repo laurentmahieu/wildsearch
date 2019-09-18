@@ -1,16 +1,11 @@
-
-
-/*img{
-    display: inline;
-    justify-content:center;
-} */
 article {
     font-size: 1em;
-    padding: 20px;
-    
-  
+    padding: 20px;   
 }
-h3 {
+
+
+
+article h3 {
     font-size: 2em;
     font-weight: bold;
     text-decoration: underline;
@@ -21,7 +16,7 @@ h3 {
     border-radius: 3px;
     }
 
-p {
+article p {
     font-size: 1em;
     line-height: 2em;
     padding: 10px;
@@ -30,10 +25,13 @@ p {
     background-color: lightgrey;
     border-radius: 5px;
 }
+
+
+
+
 .def{
     margin: 0;
     border-bottom: none;
-    
 }
 
 #sources , #tags {
@@ -42,7 +40,8 @@ p {
 
 
 #tags a{
-    margin-left: 1em;
+    margin-left: 1em
+;
 }
 /*
 a{
