@@ -1,4 +1,4 @@
-#slideshow{
+.section_theme{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -30,8 +30,10 @@ h3{
     font-size: 2em;
     font-weight: bold;
     text-decoration: underline;
-    font-family: "Varela round", sans-serif;
+    font-family: var(--varela);
 }
+
+
 
 h4{
     margin: 1% 0% 1% 0;
