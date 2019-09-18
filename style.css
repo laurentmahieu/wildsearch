@@ -81,6 +81,7 @@ header>img {
 /* STYLE FOR SEARCH BAR */
 
 footer {
+    
     grid-column: 2/3;
     background-color: var(--salmon);
     display: flex;
