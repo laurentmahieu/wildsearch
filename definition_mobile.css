@@ -1,41 +1,47 @@
-
-article {
+@media only screen and (max-width: 750px){
+   
+   body{ 
+       width: full;
+   }
+   article {
     font-size: 1em;
-    padding: 20px;   
+    padding: 2em;
+    
+  
 }
-
-article h3 {
+h3 {
     font-size: 2em;
     font-weight: bold;
-    /* COULEUR A REVOIR */
     color:#3caada;
-    /* COULEUR A REVOIR */
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
+    padding-bottom: 0.2em;
+    margin-bottom: 0.5em;
     margin-left: 2em;
     border-radius: 3px;
     }
 
-article p {
+p {
     font-size: 1em;
     line-height: 2em;
     padding: 10px;
     margin-bottom: 1em;
-    /* COULEUR A REVOIR */
     border-bottom: 0.01em solid #9e948f;
     background-color: lightgrey;
-    /* COULEUR A REVOIR */
     border-radius: 5px;
-    font-family: var(--raleway);
 }
 
 
-.sources {
-    /* COULEUR A REVOIR */
+#sources , #tags {
     color: #3caada;
-    /* COULEUR A REVOIR */
 }
 
-.sources a{
+
+#sources a , #tags a{
     margin-left: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: 0.4.em;
+}
+footer{
+    display: none;
+}
 }
