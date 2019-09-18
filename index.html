@@ -11,18 +11,29 @@
     <script src="https://kit.fontawesome.com/f88f5b7639.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aside.css">
-    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="stylecarousel.css">
+
     <title>Wild Search</title>
     <link rel="icon" href="logo_wildsearch.png">
 </head>
 
 <body>
-    
+<header>
+         <!-- SEARCHBAR -->
+         <img alt="Logo of Wildsearch" src="banner.png" />
+
+         <div class="search">
+             <span class="fa fa-search"></span>
+             <input placeholder="Search term">
+         </div>
+         <!-- END SEARCHBAR -->
+</header>
+
     <!-- Navbar on the left side -->
     <aside>
         <a href="index.html"><img alt="Logo of Wildsearch" src="logo_wildsearch.png"></a>
         <section class="theme">
-            <img src="themes.png" alt="">
+            <a href="wildsearch-theme.html"><img src="themes.png" alt=""></a>
             <ul>
                 <li><a href="wildsearch-a.html">Theme 1</a></li>
                 <li><a href="wildsearch-a.html">Theme 2</a></li>
@@ -84,15 +95,6 @@
     <!-- END Navbar on the left side -->
 
     <main>
-        <!-- SEARCHBAR -->
-        <img alt="Logo of Wildsearch" src="banner.png" />
-
-        <div class="search">
-            <span class="fa fa-search"></span>
-            <input placeholder="Search term">
-        </div>
-        <!-- END SEARCHBAR -->
-
         <!-- carousel -->
         <div id="slideshow">
             <ul id="sContent">
@@ -106,7 +108,7 @@
                                 <h3>Definition of the Day</h3>
                                 <h4>Git</h4>
                                 <a>is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows...</a>
-                                <button>Voir la définition</button>
+                                <button>Read the definition</button>
                             </div>
                         </div>
                     </div>
@@ -119,7 +121,7 @@
                             </div>              
                             <div class="first_view_def">
                                 <h3>Definition of the Eve</h3>
-                                <h4>Html</h4>
+                                <h4>HTML</h4>
                                 <a>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from....</a>
                                 <button>Read the definition</button>
                             </div>
@@ -136,7 +138,7 @@
                                 <h3>Definition of the Day Before</h3>
                                 <h4>Web developer job</h4>
                                 <a href="#">A web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web applications using a client–server model. The applications typically use HTML, CSS and JavaScript in the client, PHP, ASP.NET (C#) or Java in the server, and http for communications...</a>
-                                <button>Voir la définition</button>
+                                <button>Read the definition</button>
                             </div>
                         </div>
                     </div>                            

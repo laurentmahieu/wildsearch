@@ -1,8 +1,13 @@
-#slideshow{
+/*      PAGE THEME        */
+
+
+
+.section_theme{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 
@@ -13,7 +18,7 @@
     background-color:#f3f3f3;
     border-radius: 6px;
     padding: 1em;
-
+    width: 45%;
 }
 
 .logo_def{
@@ -29,9 +34,11 @@
 h3{
     font-size: 2em;
     font-weight: bold;
-    text-decoration: underline;
-    font-family: "Varela round", sans-serif;
+    font-family: var(--varela);
+    margin-top: 1em;
 }
+
+
 
 h4{
     margin: 1% 0% 1% 0;
@@ -52,11 +59,16 @@ button{
 }
 
 button:hover{
-    background-color:  #ff4b4b;
+    background-color:  var(--redButton);
+    cursor: pointer;
 }
 
 h4, a{
     font-family: var(--raleway);
+}
+
+div a{
+    text-align: justify;
 }
 
 @media screen and (max-width: 560px){
@@ -73,3 +85,4 @@ h4, a{
     }
 
 }
+

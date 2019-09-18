@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main article{
+    width: 50%;
+}
+
+main article li{
+    list-style: none;
+
+}
+
+main article h3{
+    font-family: var(--varela);
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    font-size: 1.8rem;
+    margin: 0.3em 0.1em;
+    border-bottom: solid 1px rgb(197, 4, 4);
+}
