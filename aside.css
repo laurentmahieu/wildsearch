@@ -1,4 +1,4 @@
-aside{
+aside {
     display: flex;
     flex-direction: column;
     background-color: #eee;
@@ -8,58 +8,60 @@ aside{
     grid-row: 1/4;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-aside a{
+aside a {
     text-align: center;
 }
 
-aside a img{
-    width: 170px;
-    height: 200px;
+aside a img {
+    width: 140px;
+    height: 151px;
     margin: 1em auto;
 }
-aside section{
+
+aside section {
     padding: 0 1em;
     margin-bottom: 2em;
 }
 
-.theme{
+.theme {
     text-align: center;
 }
-.theme img{
+
+.theme img {
     width: 100px;
     height: 30px;
     border-radius: 5px;
 }
 
-.theme img:hover{
+.theme img:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-aside section ul li{
+aside section ul li {
     list-style: none;
     margin-left: 1em;
     margin-bottom: 0.8em;
     margin-right: 20px;
 }
 
-.theme a{
+.theme a {
     color: black;
     font-family: var(--varela);
-    
-    
+
+
 }
 
-.theme a:hover{
+.theme a:hover {
     font-weight: 700;
 }
 
 
-hr{
+hr {
     width: 80%;
     margin: 0 auto 1em auto;
     color: darkslategrey;
@@ -67,19 +69,20 @@ hr{
 }
 
 /* INDEX LETTERS */
-table{
+table {
     margin: 0 auto;
 }
 
 
-table td{
+table td {
     text-align: center;
 }
-table td:last-child{
+
+table td:last-child {
     text-align: left;
 }
 
-table a{
+table a {
     font-size: 1.3em;
     font-weight: bold;
     margin: 0 2px;
@@ -87,11 +90,12 @@ table a{
     color: var(--darkSalmon);
 }
 
-table a:hover{
+table a:hover {
     color: darkslategrey;
 }
-#rightLetter{
+
+#rightLetter {
     text-align: right;
 }
-/* END INDEX LETTERS */
 
+/* END INDEX LETTERS */

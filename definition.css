@@ -6,12 +6,11 @@ article {
 article h3 {
     font-size: 2em;
     font-weight: bold;
-    /* COULEUR A REVOIR */
-    color:#3caada;
-    /* COULEUR A REVOIR */
+    
+    color:black;
+    font-family: var(--varela);
     padding-bottom: 0.5em;
-    margin-bottom: 1em;
-    margin-left: 2em;
+
     border-radius: 3px;
     }
 
@@ -22,7 +21,7 @@ article p {
     margin-bottom: 1em;
     /* COULEUR A REVOIR */
     border-bottom: 0.01em solid #9e948f;
-    background-color: lightgrey;
+    background-color: #f3f3f3;
     /* COULEUR A REVOIR */
     border-radius: 5px;
     font-family: var(--raleway);
