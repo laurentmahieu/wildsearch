@@ -1,3 +1,6 @@
+#logomobil,nav{
+    display:none;
+}
 @media only screen and (max-width:750px){
     @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i&display=swap');
 
@@ -8,21 +11,38 @@
         --blue: #3caada;
         --redButton: #fc3e39;
         --background: #f9f9f9;
+        --raleway: 'Raleway', sans-serif;
+        --varela: 'Varela Round', sans-serif;
 
     }
-
 
     * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
-
-    aside,footer, main img, .search{
+    body{
+        overflow: hidden;
+    } 
+    aside,footer{
         display:none
     }
-    main{padding: 0;}
+    main{padding: 0;
+    background: white;}
+    
+    #banner{display: none;}
 
+    #logomobil{
+        display: block;
+        width: 30vw;
+        height: 30vw;
+        padding: 5vw;
+        margin-left: 35vw;
+    }
+    .search{
+        width: 90vw;
+        margin-left: 5vw;
+    }
 
     /*carousel*/
     @keyframes AutoSlide {
@@ -52,8 +72,8 @@
 
     #slideshow {
         position: relative;
-        width: 300vw;
-        height: 100vh;
+        width: 100vw;
+        height: 50vh;
         margin:auto ;
         overflow: hidden;
     }
@@ -81,7 +101,7 @@
         display: inline-block;
         width: 99vw;
         height: 50vh;
-        /*padding: 20px;*/
+        padding: 20px;
     }
 
 
@@ -90,11 +110,9 @@
 
     #slideshow .card_def{
         display: flex;
-        flex-direction: row;/*
-        margin: 1em 1em 1em 0;*/ 
-        background-color:#ebebeb;
-        border-radius: 6px;/*
-        padding: 1em;*/
+        flex-direction: row;
+        background-color: var(--background);
+        border-radius: 6px;
         width: 100%;
         height: 100%;
         
@@ -104,7 +122,7 @@
         margin-top: 15%;
     }
     #slideshow .logo_def img{
-        width: 4em;
+        display: none;
     }
     #slideshow .first_view_def{
         margin-right: 1%;
@@ -115,8 +133,9 @@
     #slideshow h3{
         font-size: 1.2em;
         font-weight: bold;
-        text-decoration: underline;
+        text-decoration: none;
         text-align: center;
+        font-family: var(--varela);
     }
 
     #slideshow h4{
@@ -124,10 +143,12 @@
         font-weight: bold;
         margin: 0.7em;
         text-align: center;
+        font-family: var(--varela);
     }
     #slideshow a{
-
-        height: 19vh;
+        font-size: 0.9em;
+        font-family: 'Raleway', sans-serif;
+        height: 6.1em;
         overflow: hidden;
 
     }
@@ -137,8 +158,8 @@
 
     #slideshow button{
         width: 50%;
-        background-color: #fc3e39;
-        color: #f9f9f9;
+        background-color:var(--redButton);
+        color: var(--background);
         padding: 3px;
         border-radius: 6px;
         margin: 3vh auto 0 auto ;
@@ -146,7 +167,30 @@
     }
 
     #slidesshow button:hover{
-        background-color:  #ff4b4b;
+        background-color: var(--darkSalmon);
+    }
+
+
+    nav{
+        background-color: var(--salmon);
+        display: inline-flex;
+        width: 100vw;
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    nav img{
+        margin: auto;
+        border-radius: 100%;
+    }
+    nav .home{
+        position: relative;
+        margin-top: -2em;
+        border-radius: 100%;
+        width: 65px;
+        height: 65px;
     }
 
 }
