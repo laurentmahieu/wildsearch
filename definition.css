@@ -3,13 +3,12 @@ article {
     padding: 20px;   
 }
 
-
-
 article h3 {
     font-size: 2em;
     font-weight: bold;
-    text-decoration: underline;
+    /* COULEUR A REVOIR */
     color:#3caada;
+    /* COULEUR A REVOIR */
     padding-bottom: 0.5em;
     margin-bottom: 1em;
     margin-left: 2em;
@@ -21,34 +20,21 @@ article p {
     line-height: 2em;
     padding: 10px;
     margin-bottom: 1em;
+    /* COULEUR A REVOIR */
     border-bottom: 0.01em solid #9e948f;
     background-color: lightgrey;
+    /* COULEUR A REVOIR */
     border-radius: 5px;
+    font-family: var(--raleway);
 }
 
 
-
-
-.def{
-    margin: 0;
-    border-bottom: none;
-}
-
-#sources , #tags {
+.sources {
+    /* COULEUR A REVOIR */
     color: #3caada;
+    /* COULEUR A REVOIR */
 }
 
-
-#tags a{
-    margin-left: 1em
-;
+.sources a{
+    margin-left: 1em;
 }
-/*
-a{
-    padding: 1em;
-    text-decoration: none;
-}
-  a:hover {
-        outline-width: 0
-}
-*/
