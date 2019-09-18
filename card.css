@@ -34,7 +34,6 @@
 h3{
     font-size: 2em;
     font-weight: bold;
-    text-decoration: underline;
     font-family: "Varela round", sans-serif;
 }
 
@@ -68,8 +67,12 @@ div a{
     text-align: justify;
 }
 
-@media screen and (max-width: 560px){
-    section{
+.banner_mobile{
+    display: none;
+}
+
+@media screen and (max-width: 650px){
+    .section_theme{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -80,6 +83,29 @@ div a{
     .card_def{
         width: 90%;
     }
+
+    aside{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .logo_of_wildsearch{
+        display: none;
+    }
+
+    .banner_mobile{
+        display: block;
+        width: 90%;
+    }
+
+    main{
+        width: 100vw;
+    }
+
+    
 
 }
 
