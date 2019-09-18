@@ -21,21 +21,21 @@
         margin: 0;
         box-sizing: border-box;
     }
+
     body{
         overflow: hidden;
-        background: url(banner.png);
     } 
-    aside,footer{
-        display:none
-    }
+
+    aside, footer, #banner, #slideshow .logo_def img{display:none}
+
+
     main{
         padding: 0;
         width:100vw;
         height: 100vh;
-        background: whitesmoke;}
+        background: whitesmoke;
+    }
     
-    #banner{display: none;}
-
     #logomobil{
         display: block;
         width: 70vw;
@@ -45,13 +45,17 @@
         box-shadow: 0px 0px 10px silver;
         
     }
+    
     .search{
         width: 90vw;
         margin-left: 5vw;
         margin-bottom: -35vw;
     }
 
+    
+    
     /*carousel*/
+    
     @keyframes AutoSlide {
         0% {
             left: 0px; /*1ère image*/
@@ -88,6 +92,7 @@
     #sContent li{
         display: inline;
     }
+    
     #sContent {
         position: absolute;
         top: 0;
@@ -103,14 +108,13 @@
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
-    #slideshow .partone{
     
+    #slideshow .partone{
         display: inline-block;
         width: 99vw;
         height: 50vh;
         padding: 20px;
     }
-
 
 
     /*     CARDS     */
@@ -125,9 +129,7 @@
         height: 100%;
         
     }
-    #slideshow .logo_def img{
-        display: none;
-    }
+    
     #slideshow .first_view_def{
         margin-right: 1%;
         display: flex;
@@ -149,6 +151,7 @@
         text-align: center;
         font-family: var(--varela);
     }
+    
     #slideshow a{
         font-size: 0.9em;
         font-family: 'Raleway', sans-serif;
@@ -167,7 +170,6 @@
         padding: 3px;
         border-radius: 6px;
         margin: 3vh auto 0 auto ;
-
     }
 
     #slidesshow button:hover{
@@ -175,9 +177,7 @@
     }
 
 
-
-/*          NAV             */
-
+    /*          NAV             */
 
     nav{
         background-color:var(--lightSalmon);
@@ -189,9 +189,11 @@
         right: 0;
         bottom: 0;
     }
+
     nav a{
         margin: auto;
     }
+
     nav .home{
         position: relative;
         margin-top: -2em;
@@ -207,5 +209,4 @@
         height: 40px;
         margin: 10px;
     }
-
 }
