@@ -1,11 +1,12 @@
 aside {
+    grid-area: aside;
     display: flex;
     flex-direction: column;
     background-color: #eee;
     max-width: calc(100vw /5);
     min-width: 170px;
     min-height: 100vh;
-    grid-row: 1/4;
+    
 }
 
 a {
@@ -40,6 +41,10 @@ aside section {
 .theme img:hover {
     cursor: pointer;
     opacity: 0.7;
+    
+    /* review with team --------------------------------*/
+    box-shadow: 1px 2px 2px var(--redButton);
+    /* review with team ------------------------------- */
 }
 
 aside section ul li {

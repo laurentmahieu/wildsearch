@@ -71,49 +71,7 @@ div a{
     text-align: justify;
 }
 
-.banner_mobile{
-    display: none;
-}
 
-@media screen and (max-width: 650px){
-    body{
-        display: flex;
-        flex-direction: column;
-    }
-    .section_theme{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 2em;
 
-    }
 
-    .card_def{
-        width: 90%;
-    }
-
-    aside{
-        display: none;
-    }
-
-    footer{
-        display: none;
-    }
-
-    .logo_of_wildsearch{
-        display: none;
-    }
-
-    .banner_mobile{
-        display: block;
-        width: 90%;
-    }
-
-    main{
-        width: 100vw;
-    }
-
-    
-
-}
 

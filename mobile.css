@@ -1,0 +1,208 @@
+@media only screen and (max-width:800px) {
+
+    aside,
+    #banner,
+    footer {
+        display: none;
+    }
+
+    body {
+        grid-template-columns: auto;
+        grid-template-areas:
+            "header"
+            "main"
+            "nav";
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    header #logomobil {
+        display: block;
+        margin: 1em auto 1em auto;
+        border-radius: 10px;
+        width: 50%;
+        padding: 0 auto;
+        ;
+    }
+
+    #logomobil,
+    .search {
+        width: 80%;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    /* Carousel */
+
+    @keyframes AutoSlide {
+        0% {
+            left: 0px;
+            /*1ère image*/
+        }
+
+        30% {
+            left: 0px;
+            /*idem pour attente*/
+        }
+
+        35% {
+            left: -100vw;
+            /*2ème image*/
+        }
+
+        65% {
+            left: -100vw;
+            /*idem pour attente*/
+        }
+
+        70% {
+            left: -200vw;
+            /*3ème image*/
+        }
+
+        95% {
+            left: -200vw;
+            /*idem pour attente*/
+        }
+
+        100% {
+            left: 0px;
+            /*1ère image*/
+        }
+    }
+
+
+    #slideshow {
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #sContent li {
+        display: inline;
+    }
+
+    #sContent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300vw;
+        height: 50vw;
+        margin: 0;
+        padding: 0;
+
+        /*CSS3 keyframes animation*/
+        animation-name: AutoSlide;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    #slideshow .partone {
+        display: inline-block;
+        width: 99vw;
+        height: 50vh;
+        padding: 20px;
+    }
+
+
+    /*     CARDS     */
+
+    #slideshow .card_def {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--background);
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px silver;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #slideshow .first_view_def {
+        margin-right: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #slideshow h3 {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        font-family: var(--varela);
+    }
+
+    #slideshow h4 {
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0.7em;
+        text-align: center;
+        font-family: var(--varela);
+    }
+
+    #slideshow a {
+        font-size: 0.9em;
+        font-family: 'Raleway', sans-serif;
+        height: 6.1em;
+        overflow: hidden;
+
+    }
+
+    #slideshow a:hover {
+        text-decoration: underline;
+    }
+
+    #slideshow button {
+        width: 50%;
+        background-color: var(--redButton);
+        color: var(--background);
+        padding: 3px;
+        border-radius: 6px;
+        margin: 3vh auto 0 auto;
+    }
+
+    #slidesshow button:hover {
+        background-color: var(--darkSalmon);
+    }
+
+
+    /*          NAV             */
+
+    nav {
+        background-color: var(--lightSalmon);
+        display: inline-flex;
+        width: 100vw;
+        padding: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    nav a {
+        margin: auto;
+    }
+
+    nav .home {
+        position: relative;
+        margin-top: -2em;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        background: white;
+        box-shadow: 0 0 6px silver;
+    }
+
+    nav .home img {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+}
