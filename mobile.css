@@ -172,6 +172,11 @@
         background-color: var(--darkSalmon);
     }
 
+    /* Definition page */
+
+
+
+    /* END Definition page */
 
     /*          NAV             */
 
@@ -180,7 +185,7 @@
         display: inline-flex;
         width: 100vw;
         padding: 10px;
-        position: absolute;
+        position: fixed;
         left: 0;
         right: 0;
         bottom: 0;
