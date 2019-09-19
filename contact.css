@@ -1,15 +1,6 @@
 /* STYLE FOR SEARCH BAR */
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
-form{
-    grid-area: form;}
-
-body{
-    grid-template-areas: 
-        "aside header"
-        "aside form"
-        "aside footer";
-}
 
 
 .search {
