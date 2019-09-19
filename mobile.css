@@ -133,6 +133,7 @@
 
     #slideshow .first_view_def {
         margin-right: 1%;
+        height:40vh;
         display: flex;
         flex-direction: column;
     }
@@ -153,13 +154,14 @@
         font-family: var(--varela);
     }
 
-    #slideshow a {
+    #slideshow p {
         font-size: 0.9em;
         font-family: 'Raleway', sans-serif;
-        height: 40vh;
+        height: 20vh;
         overflow: hidden;
         color: black;
         margin:auto;
+    }
 
     }
 
@@ -169,6 +171,7 @@
         color: var(--background);
         padding: 3px;
         border-radius: 6px;
+        margin-left:15vw ;
         margin-top: 10vh;
     }
 
