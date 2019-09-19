@@ -1,17 +1,6 @@
 /* STYLE FOR SEARCH BAR */
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
-form{
-    grid-area: form;}
-
-body{
-    grid-template-areas: 
-        "aside header"
-        "aside form"
-        "aside footer";
-}
-
-
 .search {
     position: relative;
     color: #aaa;
@@ -40,7 +29,44 @@ body{
     left: 10px;
 }
 
-/* STYLE FOR SEARCH BAR */
+main{
+    display: flex;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 678px;
+    height:80%;
+    margin:auto;
+}
+
+input{
+    height:12%;
+    text-align: center;
+
+}
+
+textarea{
+    border-radius: 5px;
+    height : 30%;
+    text-align:center;
+}
+
+.submit {
+    background-color: var(--redButton);
+    border-radius: 5px;
+    height: 2.3em;
+    width: 20%;
+    color:#fcfcfc;
+    margin: 0 auto;
+
+}
+
+.submit:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 /* Style for Contact part*/
 
