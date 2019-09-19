@@ -5,6 +5,7 @@ main{
 }
 main article{
     width: 50%;
+    margin-bottom: 3em;
 }
 
 main article li{
@@ -20,4 +21,10 @@ main article h3{
     font-size: 1.8rem;
     margin: 0.3em 0.1em;
     border-bottom: solid 1px rgb(197, 4, 4);
+}
+
+@media only screen and (max-width:800px) {
+    main article{
+        margin-bottom: 5em;
+    }
 }

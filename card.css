@@ -71,18 +71,7 @@ div a{
     text-align: justify;
 }
 
-@media screen and (max-width: 560px){
-    section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 2em;
 
-    }
 
-    .card_def{
-        width: 90%;
-    }
 
-}
 

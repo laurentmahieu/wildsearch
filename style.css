@@ -21,29 +21,40 @@
 body {
     display: grid;
     grid-template-columns: calc(100vw /5) auto;
-    grid-template-rows: calc(100vh/4) auto calc(100vh /14);
+    grid-template-rows: calc(100vh/3) auto calc(100vh /14);
+    grid-template-areas: 
+        "aside header"
+        "aside main"
+        "aside footer";
 }
 
 
 main {
+    grid-area: main;
     background-color: var(--background);
     display: flex;
     flex-direction: column;
     padding: 0 1em;
     padding-top: 2em;
+    
 }
 
 header{
+    grid-area: header;
     display: flex;
     flex-direction: column;
     background-color: var(--background);
+    
 }
 
-header>img {
+header #banner {
     width: 678px;
     height: 151px;
     margin: 1em auto 1em auto;
     border-radius: 10px;
+}
+header #logomobil{
+    display: none;
 }
 
 
@@ -81,8 +92,7 @@ header>img {
 /* STYLE FOR SEARCH BAR */
 
 footer {
-    
-    grid-column: 2/3;
+    grid-area: footer;
     background-color: var(--salmon);
     display: flex;
     flex-direction: row;
@@ -125,4 +135,9 @@ footer {
 .right a:hover {
     opacity: 0.7;
 }
+
+nav{
+    display: none
+}
+
 
