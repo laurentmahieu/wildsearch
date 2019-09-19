@@ -217,4 +217,14 @@
         height: 40px;
         margin: 10px;
     }
+
+
+    /* Form */
+    main form{
+        width: 90%;
+    }
+
+    form input, select, textarea{
+        margin: 0.3em 0;
+    }
 }
