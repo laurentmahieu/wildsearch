@@ -116,6 +116,9 @@ h4 {
 
 .first_view_def a {
     font-family: var(--raleway);
+    color: black;
+    height: 6.1em;
+    overflow: hidden;
 }
 
 .first_view_def h2,

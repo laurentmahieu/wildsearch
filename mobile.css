@@ -33,6 +33,7 @@
     }
 
     main {
+        padding: 0;
         width: 100vw;
     }
 
@@ -79,8 +80,9 @@
     #slideshow {
         position: relative;
         width: 100vw;
-        height: 50vh;
+        height: 100vh;
         margin: auto;
+        margin-top: -10vh; 
         overflow: hidden;
     }
 
@@ -94,7 +96,7 @@
         left: 0;
         width: 300vw;
         height: 50vw;
-        margin: 0;
+        margin:auto ;
         padding: 0;
 
         /*CSS3 keyframes animation*/
@@ -106,11 +108,12 @@
 
     #slideshow .partone {
         display: inline-block;
-        width: 99vw;
+        width: 90vw;
         height: 50vh;
-        padding: 20px;
+        margin: 0 4.5vw;
+        padding: 0;
     }
-
+    
 
     /*     CARDS     */
 
@@ -123,6 +126,9 @@
         width: 100%;
         height: 100%;
 
+    }
+    #slideshow .logo_def{
+    display: none;
     }
 
     #slideshow .first_view_def {
@@ -150,22 +156,20 @@
     #slideshow a {
         font-size: 0.9em;
         font-family: 'Raleway', sans-serif;
-        height: 6.1em;
+        height: 40vh;
         overflow: hidden;
+        color: black;
+        margin:auto;
 
-    }
-
-    #slideshow a:hover {
-        text-decoration: underline;
     }
 
     #slideshow button {
-        width: 50%;
+        width: 150px;
         background-color: var(--redButton);
         color: var(--background);
         padding: 3px;
         border-radius: 6px;
-        margin: 3vh auto 0 auto;
+        margin-top: 3vh;
     }
 
     #slidesshow button:hover {
