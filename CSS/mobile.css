@@ -217,4 +217,16 @@
         height: 40px;
         margin: 10px;
     }
+
+
+
+    main form{
+        height: 100%;
+        width: 100%;
+    }
+
+    main form input, select,textarea{
+        margin: 0.5em 0;
+    }
+
 }
