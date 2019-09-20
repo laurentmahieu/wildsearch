@@ -118,7 +118,6 @@ h4 {
     font-family: var(--raleway);
     color: black;
     height: 6.1em;
-    overflow: hidden;
 }
 
 .first_view_def h2,
@@ -132,7 +131,7 @@ button {
     color: #f9f9f9;
     padding: 3px;
     border-radius: 6px;
-    margin: 0.3em 0 0 0;
+    margin: 5vh 0 0 0;
 
 }
 
