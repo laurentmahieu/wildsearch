@@ -12,10 +12,12 @@
             "header"
             "main"
             "nav";
+            background-color: var(--background)
     }
 
     header {
         width: 100vw;
+        height: 25vw;
     }
 
     header #logomobil {
@@ -34,6 +36,7 @@
 
     main {
         width: 100vw;
+        margin-top: -15vw;
     }
 
     /* Carousel */
@@ -79,7 +82,7 @@
     #slideshow {
         position: relative;
         width: 100vw;
-        height: 50vh;
+        height: 55vh;
         margin: auto;
         overflow: hidden;
     }
@@ -94,7 +97,7 @@
         left: 0;
         width: 300vw;
         height: 50vw;
-        margin: 0;
+        margin-left: -5vw;
         padding: 0;
 
         /*CSS3 keyframes animation*/
@@ -109,6 +112,7 @@
         width: 99vw;
         height: 50vh;
         padding: 20px;
+        
     }
 
 
