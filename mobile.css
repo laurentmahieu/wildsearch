@@ -176,12 +176,37 @@
         background-color: var(--darkSalmon);
     }
 
+
+    h3{
+        margin-top: 0em;
+    
+    }
+
+    .button_theme{
+        margin-left: 70%;
+    }
+
+    .logo_def{
+        display: flex;
+    }
+
+    .logo_def img{
+        align-content: center;
+        height: 64px;
+        margin: auto;
+    }
+
+    
+
+
+
     /* Definition page */
 
 
 
     .card_def{
         width: 100%;
+       
     }
 
 
