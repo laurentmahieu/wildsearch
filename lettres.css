@@ -17,14 +17,35 @@ main article h3{
     font-family: var(--varela);
     font-weight: 400;
     text-decoration: none;
-    color: rgb(139, 139, 139);
+    color: var(--darkSalmon);
     font-size: 1.8rem;
     margin: 0.3em 0.1em;
     border-bottom: solid 1px rgb(197, 4, 4);
 }
 
+main article a{
+    font-family: var(--varela);
+    color: rgb(139, 139, 139);
+    font-size: 1.2em;
+}
+
+main article p{
+    font-family: var(--raleway);
+}
+
 @media only screen and (max-width:800px) {
     main article{
+        width: 80%;
         margin-bottom: 5em;
+        margin-left: 10%;
+    }
+    main article p{
+        display: none;
+    }
+    main article h3{
+        border-bottom:none;
+    }
+    main{
+        display: block;
     }
 }
