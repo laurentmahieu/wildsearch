@@ -103,19 +103,21 @@
 h3 {
     font-size: 1.7em;
     font-weight: bold;
-
-
+    font-family: var(--varela);
 }
 
 h4 {
     font-size: 1.5em;
     font-weight: bold;
     margin: 1em;
-
+    font-family: var(--varela);
 }
 
-.first_view_def a {
+.first_view_def p {
     font-family: var(--raleway);
+    color: black;
+    height: 6.1em;
+    overflow: hidden;
 }
 
 .first_view_def h2,
@@ -129,10 +131,14 @@ button {
     color: #f9f9f9;
     padding: 3px;
     border-radius: 6px;
-    margin: 0.3em 0 0 0;
+    margin: 3vh 0 0 0;
 
 }
 
 button:hover {
     background-color: var(--redButton);
+}
+
+.card3{
+    margin-top:-15vh;
 }
