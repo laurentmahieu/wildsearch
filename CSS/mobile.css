@@ -36,6 +36,8 @@
     main {
         padding: 0;
         width: 100vw;
+        margin-top: -10vh;
+        margin-left: -4vw;
     }
 
     /* Carousel */
