@@ -102,7 +102,6 @@ table a:hover {
 }
 
 .upPage{
-    widows: 100%;
     color: var(--darkSalmon);
     position: fixed;
     bottom: 20px;

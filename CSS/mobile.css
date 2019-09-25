@@ -252,6 +252,13 @@
         margin: 10px;
     }
 
+    nav i{
+        color: var(--darkSalmon);
+        position: fixed;
+        right: 8vw;
+        bottom: 25vh;
+        opacity: 0.5;
+    }
 
     /* Form */
     main form{
@@ -261,4 +268,5 @@
     form input, select, textarea{
         margin: 0.3em 0;
     }
+
 }
