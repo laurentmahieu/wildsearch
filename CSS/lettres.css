@@ -35,15 +35,15 @@ main article p{
 
 @media only screen and (max-width:800px) {
     main article{
-        width: 80%;
-        margin-bottom: 5em;
-        margin-left: 10%;
+        width: 100%;
     }
     main article p{
         display: none;
     }
-    main article h3{
+    main article h3,main article li{
+        width:100vw;
         border-bottom:none;
+        text-align: center;
     }
     main{
         display: block;
