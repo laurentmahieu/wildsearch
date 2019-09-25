@@ -101,10 +101,11 @@ table a:hover {
     text-align: right;
 }
 
-.upPage{
+#upPageDesktop{
     color: var(--darkSalmon);
     position: fixed;
     bottom: 20px;
     left: 8vw;
+    opacity: 0;
 }
 /* END INDEX LETTERS */

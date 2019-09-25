@@ -83,8 +83,9 @@
         position: relative;
         width: 100vw;
         height: 55vh;
-        margin: auto;
         overflow: hidden;
+        margin:auto;
+        margin-left:-5vw;
     }
 
     #sContent li {
@@ -251,12 +252,11 @@
         height: 40px;
         margin: 10px;
     }
-
-    nav i{
+    #upPageMobile{
         color: var(--darkSalmon);
         position: fixed;
         right: 8vw;
-        bottom: 25vh;
+        bottom: 15vh;
         opacity: 0.5;
     }
 

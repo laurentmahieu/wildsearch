@@ -10,10 +10,13 @@ main article{
 main article a{
     font-family: var(--raleway);
     color:rgb(139, 139, 139);
+    font-weight: 600;
 }
 main article li{
     list-style: none;
-
+}
+main article p{
+    font-family: var(--raleway);
 }
 
 main article h3{
