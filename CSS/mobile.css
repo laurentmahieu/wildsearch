@@ -111,7 +111,7 @@
         display: inline-block;
         width: 99vw;
         height: 50vh;
-        padding: 20px;
+        padding-left: 10vw;
         
     }
 
@@ -150,11 +150,15 @@
         text-align: center;
         font-family: var(--varela);
     }
+    .first_view_def p {
+        font-family: var(--raleway);
+        color: black;
+        height: 30vw;
+        overflow: hidden;}
 
     #slideshow a {
         font-size: 0.9em;
         font-family: 'Raleway', sans-serif;
-        height: 6.1em;
         overflow: hidden;
 
     }
@@ -165,11 +169,12 @@
 
     #slideshow button {
         width: 50%;
+        min-width: 180px;
         background-color: var(--redButton);
         color: var(--background);
         padding: 3px;
         border-radius: 6px;
-        margin: 3vh auto 0 auto;
+        margin: 2vh auto 0 auto;
     }
 
     #slidesshow button:hover {
