@@ -1,4 +1,3 @@
-
 @media only screen and (max-width:800px) {
 
     aside,
@@ -13,10 +12,12 @@
             "header"
             "main"
             "nav";
+            background-color: var(--background)
     }
 
     header {
         width: 100vw;
+        height: 25vw;
     }
 
     header #logomobil {
@@ -34,10 +35,8 @@
     }
 
     main {
-        padding: 0;
         width: 100vw;
-        margin-top: -10vh;
-        margin-left: -4vw;
+        margin-top: -15vw;
     }
 
     /* Carousel */
@@ -85,7 +84,6 @@
         width: 100vw;
         height: 55vh;
         margin: auto;
-        margin-top: -10vh; 
         overflow: hidden;
     }
 
@@ -99,7 +97,7 @@
         left: 0;
         width: 300vw;
         height: 50vw;
-        margin:auto ;
+        margin-left: -5vw;
         padding: 0;
 
         /*CSS3 keyframes animation*/
@@ -111,14 +109,14 @@
 
     #slideshow .partone {
         display: inline-block;
-        width: 90vw;
+        width: 99vw;
         height: 50vh;
-        margin: 0 4.5vw;
-        padding: 0;
+        padding: 20px;
+        
     }
-    
 
-    /*     CARDS   CAROUSEL  */
+
+    /*     CARDS     */
 
     #slideshow .card_def {
         display: flex;
@@ -127,16 +125,12 @@
         border-radius: 6px;
         box-shadow: 0px 0px 10px silver;
         width: 100%;
-        height: 50vh;
+        height: 100%;
 
-    }
-    #slideshow .logo_def{
-    display: none;
     }
 
     #slideshow .first_view_def {
         margin-right: 1%;
-        height:40vh;
         display: flex;
         flex-direction: column;
     }
@@ -147,8 +141,6 @@
         text-decoration: none;
         text-align: center;
         font-family: var(--varela);
-        height: 7.5vh;
-        margin-top: 2vh;
     }
 
     #slideshow h4 {
@@ -157,34 +149,56 @@
         margin: 0.7em;
         text-align: center;
         font-family: var(--varela);
-        height: 5vh;
-        
     }
 
-    #slideshow p {
+    #slideshow a {
         font-size: 0.9em;
         font-family: 'Raleway', sans-serif;
-        height: 20vh;
+        height: 6.1em;
         overflow: hidden;
-        color: black;
-        margin:auto;
+
     }
 
+    #slideshow a:hover {
+        text-decoration: underline;
     }
 
     #slideshow button {
-        width: 40vw;
+        width: 50%;
         background-color: var(--redButton);
         color: var(--background);
         padding: 3px;
         border-radius: 6px;
-        margin-left: 20vw ;
-        margin-top: 15vh;
+        margin: 3vh auto 0 auto;
     }
 
     #slidesshow button:hover {
         background-color: var(--darkSalmon);
     }
+
+
+    h3{
+        margin-top: 0em;
+    
+    }
+
+    .button_theme{
+        margin-left: 70%;
+    }
+
+    .logo_def{
+        display: flex;
+    }
+
+    .logo_def img{
+        align-content: center;
+        height: 64px;
+        margin: auto;
+    }
+
+    
+
+
 
     /* Definition page */
 
@@ -192,6 +206,7 @@
 
     .card_def{
         width: 100%;
+       
     }
 
 
@@ -233,7 +248,6 @@
     }
 
 
-<<<<<<< HEAD:CSS/mobile.css
     /* Form */
     main form{
         width: 90%;
@@ -242,16 +256,4 @@
     form input, select, textarea{
         margin: 0.3em 0;
     }
-=======
-
-    main form{
-        height: 100%;
-        width: 100%;
-    }
-
-    main form input, select,textarea{
-        margin: 0.5em 0;
-    }
-
->>>>>>> 586605e99072513d06f628aa0022119660613836:CSS/mobile.css
 }

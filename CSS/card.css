@@ -19,10 +19,17 @@
     border-radius: 6px;
     padding: 1em;
     width: 45%;
+    
 }
 
 .logo_def{
     margin: 3%;
+    display: block;
+    
+}
+
+.logo_def img{
+    justify-content: flex-start;
 }
 
 .first_view_def{
@@ -48,7 +55,7 @@ a:hover{
     text-decoration: underline;
 }
 
-button{
+.button_theme{
     width: 30%;
     background-color: var(--redButton);
     color: #f9f9f9;
@@ -58,7 +65,7 @@ button{
 
 }
 
-button:hover{
+.button_theme:hover{
     background-color:  var(--redButton);
     cursor: pointer;
 }
@@ -72,6 +79,7 @@ div a{
 }
 
 
+@media only screen and (max-width:800px) {
 
 
-
+}
