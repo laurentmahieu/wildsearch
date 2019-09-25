@@ -126,13 +126,13 @@ h4 {
     font-family: var(--varela);
 }
 
-button {
+#slideshow button {
     width: 30%;
     background-color: #fc3e39;
     color: #f9f9f9;
     padding: 3px;
     border-radius: 6px;
-    margin: 3vh 0 0 0;
+    margin: 10px 0 0 0;
 
 }
 
