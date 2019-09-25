@@ -233,6 +233,7 @@
     }
 
 
+<<<<<<< HEAD:CSS/mobile.css
     /* Form */
     main form{
         width: 90%;
@@ -241,4 +242,16 @@
     form input, select, textarea{
         margin: 0.3em 0;
     }
+=======
+
+    main form{
+        height: 100%;
+        width: 100%;
+    }
+
+    main form input, select,textarea{
+        margin: 0.5em 0;
+    }
+
+>>>>>>> 586605e99072513d06f628aa0022119660613836:CSS/mobile.css
 }
