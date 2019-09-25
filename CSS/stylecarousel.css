@@ -104,10 +104,6 @@ h3 {
     font-size: 1.7em;
     font-weight: bold;
     font-family: var(--varela);
-<<<<<<< HEAD
-
-=======
->>>>>>> 54073570e3aa136deaa06da2844be554439211a9
 }
 
 h4 {
@@ -118,13 +114,11 @@ h4 {
 }
 
 .first_view_def p {
+    width: 600px;
     font-family: var(--raleway);
     color: black;
     height: 6.1em;
-<<<<<<< HEAD
-=======
     overflow: hidden;
->>>>>>> 54073570e3aa136deaa06da2844be554439211a9
 }
 
 .first_view_def h2,
@@ -138,11 +132,7 @@ button {
     color: #f9f9f9;
     padding: 3px;
     border-radius: 6px;
-<<<<<<< HEAD
-    margin: 5vh 0 0 0;
-=======
     margin: 3vh 0 0 0;
->>>>>>> 54073570e3aa136deaa06da2844be554439211a9
 
 }
 
