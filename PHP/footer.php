@@ -1,8 +1,8 @@
 <nav>
-        <a href="wildsearch-theme.html"><img src="../IMG/bouton_theme_mobile.png" title="Themes" alt="Themes"/></a>
-        <a href="wildsearch-a.html"><img src="../IMG/1568807885231_bouton alphabet mobile.png" title="Alphabet" alt="Alphabet"/></a>
+        <a href="../PHP/wildsearch-theme.php"><img src="../IMG/bouton_theme_mobile.png" title="Themes" alt="Themes"/></a>
+        <a href="../PHP/wildsearch-a.php"><img src="../IMG/1568807885231_bouton alphabet mobile.png" title="Alphabet" alt="Alphabet"/></a>
         <!-- à revoir en bas -->
-        <a href="index.php"  class="home"><img src="../IMG/logo mobile sans fond.png" title="Menu Burger" alt="Logo Menu Burger"/></a>
+        <a href="../PHP/index.php"  class="home"><img src="../IMG/logo mobile sans fond.png" title="Menu Burger" alt="Logo Menu Burger"/></a>
         <a href="#"><img src="../IMG/bouton_top_recherches_mobile.png" title="Search" alt="Top search"/></a>
         <a href="#"><img src="../IMG/1568807886004_bouton contact mobile.png" title="Contact" alt="Contact"/></a>
     </nav>
@@ -11,7 +11,7 @@
         <div class="left">
             <a href="#">Legal notices</a>
             <a href="#">Wild Code School</a>
-            <a href="#">Contact</a>
+            <a href="../PHP/contact.php">Contact</a>
             <a href="#">Site plan</a>
         </div>
         <div class="right">

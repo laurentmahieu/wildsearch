@@ -16,7 +16,7 @@
     <link rel="icon" href="../IMG/logo_wildsearch.png">
     <title>Wild Search</title>
 </head>    
-    <?php 
+    <?php
 include('header.php');
 ?>
 
@@ -85,6 +85,10 @@ include('aside.php');
         </div>
         <!-- end carousel-->
     </main>
-    <?php 
+    <?php
 include('footer.php');
 ?>
+
+</body>
+</html>
+
