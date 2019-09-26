@@ -2,15 +2,18 @@ aside {
     grid-area: aside;
     display: flex;
     flex-direction: column;
-    background-color: #eee;
+    background-color: var(--bg-aside);
     max-width: calc(100vw /5);
     min-width: 170px;
     min-height: 100vh;
     
 }
 
+
+
 a {
     text-decoration: none;
+    
 }
 
 aside a {
@@ -30,6 +33,7 @@ aside section {
 
 .theme {
     text-align: center;
+    
 }
 
 .theme img {
@@ -55,7 +59,7 @@ aside section ul li {
 }
 
 .theme a {
-    color: black;
+    color: var(--color-text);
     font-family: var(--varela);
 
 
@@ -104,4 +108,3 @@ table a:hover {
 }
 
 /* END INDEX LETTERS */
-
