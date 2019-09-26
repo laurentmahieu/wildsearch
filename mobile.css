@@ -217,4 +217,44 @@
         height: 40px;
         margin: 10px;
     }
+
+
+    /* Contact part */
+
+    main h3{
+        text-align: center;
+        margin-bottom: 3em;
+
+    }
+
+    main form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        height:30vh;
+        
+    }
+    
+    input{
+        height:12%;
+        text-align: center;
+    
+    }
+    
+    textarea{
+        border-radius: 5px;
+        height : 30%;
+        text-align:center;
+    }
+    
+    .submit {
+        background-color: var(--redButton);
+        border-radius: 5px;
+        height: 2.3em;
+        width: 25%;
+        color:#fcfcfc;
+        margin: 0 auto;
+    
+    }
 }
