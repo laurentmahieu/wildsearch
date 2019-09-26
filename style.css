@@ -39,6 +39,12 @@ main {
     
 }
 
+main>img{
+    width: 10rem;
+    margin: 0 auto;
+    box-shadow: 1px 2px 2px var(--redButton);
+}
+
 header{
     grid-area: header;
     display: flex;
