@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme='light'>
 
 <head>
     <meta charset="UTF-8">
@@ -49,7 +49,7 @@ include('aside.php');
                     <div class="partone">
                         <div class="card_def">
                             <div class="logo_def">
-                                <img src="Html5-64px.png" alt="logo_Html5">
+                                <img src="../IMG/Html5-64px.png" alt="logo_Html5">
                             </div>
                             <div class="first_view_def">
                                 <h3>Definition of the Eve</h3>
@@ -67,7 +67,7 @@ include('aside.php');
                     <div class="partone">
                         <div class="card_def">
                             <div class="logo_def">
-                                <img src="devweb.jpg" alt="logo_dev_web">
+                                <img src="../IMG/devweb.jpg" alt="logo_dev_web">
                             </div>
                             <div class="first_view_def">
                                 <h3>Definition of the Day Before</h3>

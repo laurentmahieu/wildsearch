@@ -8,7 +8,7 @@ article h3 {
     font-size: 2em;
     font-weight: bold;
     
-    color:black;
+    color:var(--color-text);
     font-family: var(--varela);
     padding-bottom: 0.5em;
 
@@ -22,7 +22,7 @@ article p {
     margin-bottom: 1em;
     /* COULEUR A REVOIR */
     border-bottom: 0.01em solid #9e948f;
-    background-color: #f3f3f3;
+    background-color: var(--bg-aside);
     /* COULEUR A REVOIR */
     border-radius: 5px;
     font-family: var(--raleway);
@@ -37,4 +37,5 @@ article p {
 
 .sources a{
     margin-left: 1em;
+    color: var(--color-text);
 }

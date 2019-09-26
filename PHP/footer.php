@@ -19,6 +19,10 @@
             <a href="#" title="Instagram"><img alt="Instagram" src="../IMG/instagram.png" /></a>
             <a href="#" title="Twitter"><img alt="Twitter" src="../IMG/twitter.png" /></a>
         </div>
+        <div class="toggle-container">
+            <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+        </div>
     </footer>
+    <script src="../JS/script.js"></script>
     </body>
 </html>
