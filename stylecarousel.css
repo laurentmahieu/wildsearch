@@ -42,6 +42,7 @@
     height: 320px;
     margin: 2.5em auto -7em auto;
     overflow: hidden;
+
 }
 
 #sContent li {
@@ -78,7 +79,7 @@
     display: flex;
     flex-direction: row;
     margin: 1em 1em 1em 0;
-    background-color: #F3F3F3;
+    background-color: var(--bg-aside);
     border-radius: 6px;
     padding: 1em;
     width: 100%;
@@ -98,6 +99,7 @@
     margin-right: 1%;
     display: flex;
     flex-direction: column;
+    color: var(--color-text);
 }
 
 h3 {
@@ -116,6 +118,7 @@ h4 {
 
 .first_view_def a {
     font-family: var(--raleway);
+    
 }
 
 .first_view_def h2,
