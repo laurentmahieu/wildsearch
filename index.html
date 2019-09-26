@@ -8,7 +8,6 @@
     <meta name="author" content="Laurent - Alice - Philippe - Valentin - Adrien - Clémence">
     <meta name="description"
         content="Dev language is like chinese to you? Don't worry ! Here, we will explain you every word of this language">
-    <script src="https://kit.fontawesome.com/f88f5b7639.js"></script>  
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aside.css">
     <link rel="stylesheet" href="stylecarousel.css">
@@ -155,14 +154,28 @@
         <a href="wildsearch-theme.html"><img src="bouton_theme_mobile.png" title="Themes" alt="Themes"/></a>
         <a href="wildsearch-a.html"><img src="1568807885231_bouton alphabet mobile.png" title="Alphabet" alt="Alphabet"/></a>
         <a href="index.html"  class="home"><img src="logo mobile sans fond.png" title="Menu Burger" alt="Logo Menu Burger"/></a>
-        <a href="#"><img src="bouton_top_recherches_mobile.png" title="Search" alt="Top search"/></a>
+        
+        <div class="button_container">
+            <a href="#"><img src="bouton_top_recherches_mobile.png" onclick="openModal()" title="Search" alt="Top search"/></a>   
+        </div>
+
+        <div id="modal">
+            <h1>Top Search</h1>
+            <p>Search n°1:</p>
+            <p>Search n°2:</p>
+            <p>Search n°3:</p>
+            <p>Search n°4:</p>
+            <p>Search n°5:</p>
+            <button id="close" onclick="closeModal()">X</button>
+        </div>
         <a href="#"><img src="1568807886004_bouton contact mobile.png" title="Contact" alt="Contact"/></a>
+        
     </nav>
     <!-- fin du nav mobile-->
     <footer>
         <div class="left">
             <a href="#">Legal notices</a>
-            <a href="#">Wild Code School</a>
+            <a href="https://www.wildcodeschool.com/">Wild Code School</a>
             <a href="#">Contact</a>
         </div>
         <div class="right">
@@ -171,7 +184,8 @@
             <a href="#" title="Twitter"><img alt="Twitter" src="twitter.png" /></a>
         </div>
     </footer>
-
+    <script src="https://kit.fontawesome.com/f88f5b7639.js"></script>  
+    <script src="index.js"></script>
 </body>
 
 </html>
