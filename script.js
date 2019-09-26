@@ -16,3 +16,13 @@ let trans = () => {
         document.documentElement.classList.remove('transition')
     }, 1000)
 }
+
+function darkLight() {
+    if (localStorage.toggled != 'dark') {
+       $('#main, p').toggleClass('dark', true);
+       localStorage.toggled = "dark";
+    } else {
+       $('#main, p').toggleClass('dark', false);
+       localStorage.toggled = "";
+    }
+ }
