@@ -277,4 +277,92 @@
         bottom: 15vh;
         opacity: 0;
     }
+
+
+    /* Contact part */
+
+    main h3{
+        text-align: center;
+        margin-bottom: 3em;
+
+    }
+
+    main form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        height:30vh;
+        
+    }
+    
+    input{
+        height:12%;
+        text-align: center;
+    
+    }
+    
+    textarea{
+        border-radius: 5px;
+        height : 30%;
+        text-align:center;
+    }
+    
+    .submit {
+        background-color: var(--redButton);
+        border-radius: 5px;
+        height: 2.3em;
+        width: 25%;
+        color:#fcfcfc;
+        margin: 0 auto;
+    
+    }
+
+    /* Pop up top search part*/
+
+    .button_container{
+        width : 40px;
+        height : 40px;
+        text-align: center;
+        margin : auto;
+    }
+
+    
+    #modal{
+        height: 370px;
+        width: 45%;
+        background-color:#faa5a5;
+        border-radius: 10px;
+        text-align:center;
+        position: absolute;
+        bottom: -999px;
+        left:27.5%;
+        transition: 0.5s;
+        margin-bottom:25%;
+    }
+    #close{
+        height: 30px;
+        width: 30px;
+        color: #ffffff;
+        background-color: #e74c3c;
+        font-size: 20px;
+        border : none;
+        cursor: pointer;
+        margin-top:20px;
+    }
+
+    #modal h1{
+        font-family: var(--varela);
+        color:var(--redButton);
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    #modal p {
+        font-weight: bold;
+        font-family: var(--raleway);
+        color:var(--redButton);
+        margin-bottom: 25px;
+    }
+
 }

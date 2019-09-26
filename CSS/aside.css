@@ -98,7 +98,7 @@ table a {
 }
 
 table a:hover {
-    color: darkslategrey;
+    color: var(--color-text);
 }
 
 #rightLetter {

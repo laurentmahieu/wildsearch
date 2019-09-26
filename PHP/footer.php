@@ -2,8 +2,24 @@
         <a href="../PHP/wildsearch-theme.php"><img src="../IMG/bouton_theme_mobile.png" title="Themes" alt="Themes"/></a>
         <a href="../PHP/wildsearch-a.php"><img src="../IMG/1568807885231_bouton alphabet mobile.png" title="Alphabet" alt="Alphabet"/></a>
         <!-- à revoir en bas -->
+       
         <a href="../PHP/index.php"  class="home"><img src="../IMG/logo mobile sans fond.png" title="Menu Burger" alt="Logo Menu Burger"/></a>
-        <a href="#"><img src="../IMG/bouton_top_recherches_mobile.png" title="Search" alt="Top search"/></a>
+      
+
+        <div class="button_container">
+            <a href="#"><img src="../IMG/bouton_top_recherches_mobile.png" onclick="openModal()" title="Search" alt="Top search"/></a>   
+        </div>
+
+        <div id="modal">
+            <h1>Top Search</h1>
+            <p>Search n°1:</p>
+            <p>Search n°2:</p>
+            <p>Search n°3:</p>
+            <p>Search n°4:</p>
+            <p>Search n°5:</p>
+            <button id="close" onclick="closeModal()">X</button>
+        </div>
+        
         <a href="#"><img src="../IMG/1568807886004_bouton contact mobile.png" title="Contact" alt="Contact"/></a>
     </nav>
     <!-- fin du nav mobile-->
@@ -29,6 +45,7 @@
         </div>
     </footer>
     <script src="../JS/script.js"></script>
+    <script src="../JS/index.js"></script>
     <script type="text/javascript" src="../JS/topButton.js"></script>
     <script type="text/javascript" src="../JS/search_bar.js"></script>
     </body>
