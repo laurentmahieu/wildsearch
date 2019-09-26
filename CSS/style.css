@@ -145,3 +145,11 @@ footer {
 nav{
     display: none
 }
+
+#upPage{
+    color: var(--darkSalmon);
+    position: fixed;
+    bottom: 20px;
+    left: 8vw;
+    opacity: 0;
+}

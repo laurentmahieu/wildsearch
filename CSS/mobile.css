@@ -252,13 +252,7 @@
         height: 40px;
         margin: 10px;
     }
-    #upPageMobile{
-        color: var(--darkSalmon);
-        position: fixed;
-        right: 8vw;
-        bottom: 15vh;
-        opacity: 0;
-    }
+    
 
     /* Form */
     main form{
@@ -269,4 +263,11 @@
         margin: 0.3em 0;
     }
 
+    #upPage{
+        color: var(--darkSalmon);
+        position: fixed;
+        right: 8vw;
+        bottom: 15vh;
+        opacity: 0;
+    }
 }
