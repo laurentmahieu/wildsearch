@@ -10,6 +10,7 @@
         <script src="https://kit.fontawesome.com/f88f5b7639.js"></script>  
         <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/aside.css">
+    <link rel="stylesheet" href="../CSS/search_bar.css">
         <link rel="stylesheet" href="../CSS/card.css">
         <link rel="stylesheet" href="../CSS/mobile.css">
         <link rel="icon" href="../IMG/logo_wildsearch.png"> 

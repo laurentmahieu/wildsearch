@@ -7,6 +7,11 @@
         <a href="#"><img src="../IMG/1568807886004_bouton contact mobile.png" title="Contact" alt="Contact"/></a>
     </nav>
     <!-- fin du nav mobile-->
+    <section>
+        <a id="upPage" href ="#">
+            <i class="fas fa-chevron-circle-up fa-2x"></i>
+        </a>
+    </section>
     <footer>
         <div class="left">
             <a href="#">Legal notices</a>
@@ -24,5 +29,7 @@
         </div>
     </footer>
     <script src="../JS/script.js"></script>
+    <script type="text/javascript" src="../JS/topButton.js"></script>
+    <script type="text/javascript" src="../JS/search_bar.js"></script>
     </body>
 </html>

@@ -53,10 +53,10 @@ h3{
 h4{
     margin: 1% 0% 1% 0;
 }
-
+/*
 a:hover{
     text-decoration: underline;
-}
+}*/
 
 .button_theme{
     width: 30%;
@@ -81,9 +81,9 @@ div a{
     text-align: justify;
 }
 
-
+/*
 @media only screen and (max-width:800px) {
 
 
 }
-
+*/

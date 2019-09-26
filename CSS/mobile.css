@@ -12,10 +12,12 @@
             "header"
             "main"
             "nav";
+            background-color: var(--background)
     }
 
     header {
         width: 100vw;
+        height: 25vw;
     }
 
     header #logomobil {
@@ -32,9 +34,15 @@
         width: 80%;
     }
 
+    /* Integ de la nouvelle searchbar*/
+
+    .title-container, .field-container{
+        width: 80%;
+    }
+
     main {
         width: 100vw;
-        padding-top: 0em;
+        margin-top: -15vw;
     }
 
     /* Carousel */
@@ -80,9 +88,10 @@
     #slideshow {
         position: relative;
         width: 100vw;
-        height: 50vh;
-        margin: auto;
+        height: 55vh;
         overflow: hidden;
+        margin:auto;
+        margin-left:-5vw;
     }
 
     #sContent li {
@@ -95,7 +104,7 @@
         left: 0;
         width: 300vw;
         height: 50vw;
-        margin: 0;
+        margin-left: -5vw;
         padding: 0;
 
         /*CSS3 keyframes animation*/
@@ -109,7 +118,8 @@
         display: inline-block;
         width: 99vw;
         height: 50vh;
-        padding: 20px;
+        padding-left: 10vw;
+        
     }
 
 
@@ -147,11 +157,15 @@
         text-align: center;
         font-family: var(--varela);
     }
+    .first_view_def p {
+        font-family: var(--raleway);
+        color: black;
+        height: 30vw;
+        overflow: hidden;}
 
     #slideshow a {
         font-size: 0.9em;
         font-family: 'Raleway', sans-serif;
-        height: 6.1em;
         overflow: hidden;
 
     }
@@ -162,11 +176,12 @@
 
     #slideshow button {
         width: 50%;
+        min-width: 180px;
         background-color: var(--redButton);
         color: var(--background);
         padding: 3px;
         border-radius: 6px;
-        margin: 3vh auto 0 auto;
+        margin: 2vh auto 0 auto;
     }
 
     #slidesshow button:hover {
@@ -243,6 +258,7 @@
         height: 40px;
         margin: 10px;
     }
+    
 
 
     /* Form */
@@ -252,5 +268,13 @@
 
     form input, select, textarea{
         margin: 0.3em 0;
+    }
+
+    #upPage{
+        color: var(--darkSalmon);
+        position: fixed;
+        right: 8vw;
+        bottom: 15vh;
+        opacity: 0;
     }
 }

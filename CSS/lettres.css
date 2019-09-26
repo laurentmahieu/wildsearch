@@ -7,24 +7,47 @@ main article{
     width: 47%;
     margin-bottom: 3em;
 }
-
+main article a{
+    font-family: var(--raleway);
+    color:rgb(139, 139, 139);
+    font-weight: 600;
+}
 main article li{
     list-style: none;
-
+}
+main article p{
+    font-family: var(--raleway);
 }
 
 main article h3{
     font-family: var(--varela);
     font-weight: 400;
     text-decoration: none;
-    color: var(--color-h3);
+    color: var(--darkSalmon);
     font-size: 1.8rem;
     margin: 0.3em 0.1em;
     border-bottom: solid 1px rgb(197, 4, 4);
 }
 
 @media only screen and (max-width:800px) {
-    main article{
-        margin-bottom: 5em;
+    main{
+        flex-direction: column;
     }
+    main article{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    main article h3{
+        text-decoration: none;
+        border-bottom: none;
+        text-align: center;
+    }
+    main article li{
+        width: 100%;
+        text-align: center;
+    }
+    main article p{
+        display: none;
+    }
+    
 }

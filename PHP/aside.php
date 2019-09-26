@@ -59,5 +59,6 @@
 
         </section>
 
+        
     </aside>
     <!-- END Navbar on the left side -->

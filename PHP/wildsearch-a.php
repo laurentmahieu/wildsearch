@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../CSS/aside.css">
     <link rel="stylesheet" href="../CSS/stylecarousel.css">
     <link rel="stylesheet" href="../CSS/lettres.css">
+    <link rel="stylesheet" href="../CSS/search_bar.css">
     <link rel="stylesheet" href="../CSS/mobile.css">
     <link rel="icon" href="../IMG/logo_wildsearch.png">
     <title>Wild Search</title>

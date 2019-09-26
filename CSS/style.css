@@ -229,3 +229,10 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+#upPage{
+    color: var(--darkSalmon);
+    position: fixed;
+    bottom: 20px;
+    left: 8vw;
+    opacity: 0;
+}

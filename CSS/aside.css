@@ -61,8 +61,6 @@ aside section ul li {
 .theme a {
     color: var(--color-text);
     font-family: var(--varela);
-
-
 }
 
 .theme a:hover {
