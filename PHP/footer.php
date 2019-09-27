@@ -41,7 +41,9 @@
             <a href="#" title="Twitter"><img alt="Twitter" src="../IMG/twitter.png" /></a>
         </div>
         <div class="toggle-container">
-            <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+            <img class="icon-sun" src="../Icons/sun-symbol.png" alt="sun icon">
+            <input type="checkbox" id="switch" name="theme" onclick="darkLight()" /><label for="switch">Toggle</label>
+            <img class="icon-moon" src="../Icons/moon-symbol.png" alt="moon icon">
         </div>
     </footer>
     <script src="../JS/script.js"></script>

@@ -178,6 +178,8 @@ nav{
     display: flex;
     justify-content: flex-end;
     padding: 1em;
+    margin-bottom: 2px;
+    
 }
 
 input[type=checkbox]{
@@ -194,7 +196,8 @@ label {
 	background: grey;
 	float: right;
 	border-radius: 100px;
-	position: relative;
+    position: relative;
+    
 }
 
 label:after {
@@ -236,3 +239,13 @@ html.transition *:after {
     left: 8vw;
     opacity: 0;
 }
+
+
+.icon-sun{
+    height: 150%;
+    margin-top: 3%;
+}
+.icon-moon{
+    height: 200%;
+}
+
