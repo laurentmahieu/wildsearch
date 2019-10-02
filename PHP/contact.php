@@ -23,30 +23,28 @@ include('header.php');
 ?>
 <?php 
 include('aside.php');
+require_once('form.php');
 ?>
-require_once ('PHP/form.php'
+
     <main>
         <!-- Contact part -->
         <h3>Contact</h3>
         <form action="" method="POST">
-            <label >
-                <input type="text" name="email" placeholder="Your E-mail @ddress" />
-                <span>*<?= $formErrors['email']?></span>
-            </label>
-            <label  for="name">
+            
+                <input type="email" name="email" placeholder="Your E-mail @ddress" />
+                <?= $formErrors['email']?>            
+            
                 <input type="text" name="name" placeholder="Your Name" />
-                <span>*<?= $formErrors['name']?></span>
-            </label>
-            <label>
+                <?= $formErrors['name']?>
+         
                 <select name="question">
-                    <option value="questions">Any question ?</option>
-                    <option value="comments">Any comments ? </option>
+                    <option value="questions">Any questions?</option>
+                    <option value="comments">Any comments?</option>
                 </select>
-            </label>
-            <label  for="message">
+            
                 <textarea name="message" rows="5" cols="40" placeholder="<!-- Leave your message here ! -->" ></textarea>
-                <span>*<?= $formErrors['message']?></span>
-            </label>
+                <?= $formErrors['message']?>
+            
             <input class="submit" type="submit" name="Send" value="- Send ! -"/>
         </form>
         <?= $formcomplete?>
