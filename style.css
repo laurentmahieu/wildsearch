@@ -13,6 +13,13 @@ html {
     --color-headings: #0077FF;
     --bg-aside: #eee;
     --color-h3-: rgb(139, 139, 139);
+    --toggle-size: 10rem;
+    --switch-w: 4em;
+    --switch-h: 2em;
+	--switch-handle-scale: .65;
+    --switch-off-handle-x: -.125em;
+    --switch-on-handle-x: calc(100% - .125em);
+	--switch-transition-duration: .2s;
 
 }
 
@@ -172,14 +179,12 @@ nav{
 }
 
 
-/* dark mode*/
+/*                DARK MODE           */
 
 .toggle-container{
     display: flex;
     justify-content: flex-end;
     padding: 1em;
-    margin-bottom: 2px;
-    
 }
 
 input[type=checkbox]{
@@ -196,8 +201,7 @@ label {
 	background: grey;
 	float: right;
 	border-radius: 100px;
-    position: relative;
-    
+	position: relative;
 }
 
 label:after {
@@ -232,13 +236,10 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
-
-
-.icon-sun{
-    height: 150%;
-    margin-top: 3%;
+#upPage{
+    color: var(--darkSalmon);
+    position: fixed;
+    bottom: 20px;
+    left: 8vw;
+    opacity: 0;
 }
-.icon-moon{
-    height: 200%;
-}
-
