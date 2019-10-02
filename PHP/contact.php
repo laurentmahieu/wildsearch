@@ -27,7 +27,7 @@ include('aside.php');
    
     <main>
         <!-- Contact part -->
-        <h3>Contact</h3>
+        <h3 id="titlecontact">Contact</h3>
         <form autocomplete="on" action="" method="POST">
             <input type="email" name="e-mail" placeholder="Your E-mail @ddress" required/>
             <input type="text" name="name" placeholder="Your Name" required/>

@@ -28,7 +28,7 @@
         <a href="">Programmers</a>
         <a href="">Integration</a>
         <a href="">Repository</a>
-        <a href="">developer</a>
+        <a href="">Developer</a>
         <a href="">Back-End</a>
       
     </ul>
