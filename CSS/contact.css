@@ -41,6 +41,9 @@ main form{
     height:80%;
     margin:auto;
 }
+h3{
+    text-align: center;
+}
 
 input{
     height:12%;
@@ -68,7 +71,14 @@ textarea{
     cursor: pointer;
     opacity: 0.8;
 }
-
+form > div{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    color: var(--text-color);
+    font-family: var(--valera);
+}
 /* Style for Contact part*/
 
 

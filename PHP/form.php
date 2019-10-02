@@ -8,8 +8,6 @@ $formErrors = [
 // Init a validation answer
 $formcomplete = '';
 
-$validationForm=false;
-
 //If I submit my form
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
@@ -47,7 +45,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     //If the validation form pass all the errors
     if( '' == $formErrors['email'] && '' ==  $formErrors['name'] && '' == $formErrors['message'] ){
         $validationForm = true;
-        $formcomplete = '<p>Thank you Wilder for contacting us, we will examine your request as soon as possible !</p>';
-
     }
+    $formcomplete = '<div>Thank you Wilder for contacting us, we will examine your request as soon as possible !</div>';
 }
