@@ -10,22 +10,22 @@
     }
 
     35% {
-        left: -800px;
+        left: -805px;
         /*2ème image*/
     }
 
     65% {
-        left: -800px;
+        left: -805px;
         /*idem pour attente*/
     }
 
     70% {
-        left: -1600px;
+        left: -1610px;
         /*3ème image*/
     }
 
     95% {
-        left: -1600px;
+        left: -1610px;
         /*idem pour attente*/
     }
 
@@ -45,7 +45,11 @@
 }
 
 #sContent li {
-    display: inline;
+    display: inline-block;
+    width: 800px;
+    height: 320px;
+    overflow: hidden;
+
 }
 
 #sContent {

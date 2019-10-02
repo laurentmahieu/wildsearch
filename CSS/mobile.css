@@ -325,6 +325,7 @@
         height : 40px;
         text-align: center;
         margin : auto;
+        margin-top: -0.5px;
     }
 
     
@@ -364,5 +365,6 @@
         color:var(--redButton);
         margin-bottom: 25px;
     }
+    #top-search{display: none;}
 
 }

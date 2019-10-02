@@ -166,7 +166,7 @@
   padding: 10px 20px !important;
   background: white !important;
   border-radius: 3px !important;
-  box-shadow: 0px 8px 15px #f99797 !important;
+  box-shadow: 0px 8px 15px var(--boxShadow) !important;
   -webkit-transition: all 0.4s ease !important;
   transition: all 0.4s ease !important;
 }
@@ -184,7 +184,42 @@
   -webkit-transform: translateX(200%);
           transform: translateX(200%);
 }
+/*----------------bouton under searchbar*/
 
+
+#topsearchDesktoplogo
+{
+  width: 20px;
+  height: 20px;
+  cursor: default;
+  margin-top: 5px;
+}
+
+#top-search{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Search{
+  font-size: 1em;
+  color: var(--darkSalmon);
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+#top-search a{
+  font-size: 1em;
+  font-family: var(--varela);
+  cursor: pointer;
+  text-decoration: underline;
+  color:var(--color-text);
+  margin: 6px auto;
+}
+
+#top-search li{
+  list-style-type: none;
+}
 
 
 /*-----------------------mobile------------------*/
