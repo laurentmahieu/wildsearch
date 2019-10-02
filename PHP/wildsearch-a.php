@@ -19,6 +19,11 @@
     <title>Wild Search</title>
 </head>
 <?php
+require_once 'connec.php';
+
+$pdo = new \PDO(DSN, USER, PASS);
+?>
+<?php
 include('header.php');
 ?>
 
