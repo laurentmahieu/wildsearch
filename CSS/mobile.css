@@ -36,8 +36,8 @@
 
     /* Integ de la nouvelle searchbar*/
 
-    .title-container, .field-container{
-        width: 80%;
+    .title-container{
+        width: 50%;
     }
 
     main {
