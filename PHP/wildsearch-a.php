@@ -45,16 +45,16 @@ include('aside.php');
                 <h3 id="C">C</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">CMS:</a>
-                        content management system (CMS) manages the creation and modification of digital content...
+                        <a href="../PHP/wildsearch-def.php">CMS</a>
+                        <p>content management system (CMS) manages the creation and modification of digital content...</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">CODEWARS:</a>
-                        an educational community for computer programming. On the platform, software developers train on programming challenges known as Kata....
+                        <a href="../PHP/wildsearch-def.php">CODEWARS</a>
+                        <p>an educational community for computer programming. On the platform, software developers train on programming challenges known as Kata....</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">CSS:</a>
-                        Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML...
+                        <a href="../PHP/wildsearch-def.php">CSS</a>
+                        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML...</p>
                     </li>
                 </ul>
             </div>
@@ -63,12 +63,12 @@ include('aside.php');
 
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Database:</a>
-                        a collection of information that is organized so that it can be easily accessed, managed and updated...
+                        <a href="../PHP/wildsearch-def.php">Database</a>
+                        <p>a collection of information that is organized so that it can be easily accessed, managed and updated...</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Developer:</a>
-                        programmer who specializes in the development of applications relating to the World Wide Web or distributed network applications...
+                        <a href="../PHP/wildsearch-def.php">Developer</a>
+                        <p>programmer who specializes in the development of applications relating to the World Wide Web or distributed network applications...</p>
                     </li>
                 </ul>
             </div>
@@ -82,8 +82,8 @@ include('aside.php');
                 <h3 id="G">G</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">GIT:</a>
-                        a distributed version-control system for tracking changes in source code during software development...
+                        <a href="../PHP/wildsearch-def.php">GIT</a>
+                        <p>a distributed version-control system for tracking changes in source code during software development...</p>
                     </li>
                 </ul>
             </div>
@@ -91,8 +91,8 @@ include('aside.php');
                 <h3 id="H">H</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">HTML:</a>
-                        Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser...
+                        <a href="../PHP/wildsearch-def.php">HTML</a>
+                        <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser...</p>
                     </li>
                 </ul>
             </div>
@@ -100,8 +100,8 @@ include('aside.php');
                 <h3 id="I">I</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Integration:</a>
-                        a process of connecting all the outputs of all activities and components essential for carrying out the web project as a whole...
+                        <a href="../PHP/wildsearch-def.php">Integration</a>
+                        <p>a process of connecting all the outputs of all activities and components essential for carrying out the web project as a whole...</p>
                     </li>
                 </ul>
             </div>
@@ -109,8 +109,8 @@ include('aside.php');
                 <h3 id="J">J</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">JavaScript:</a>
-                        one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications...
+                        <a href="../PHP/wildsearch-def.php">JavaScript</a>
+                        <p>one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications...</p>
                     </li>
                 </ul>
             </div>
@@ -124,8 +124,8 @@ include('aside.php');
                 <h3 id="M">M</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">MVC:</a>
-                        stands for Model, View and Controller. MVC separates application into three components - Model, View and Controller...
+                        <a href="../PHP/wildsearch-def.php">MVC</a>
+                        <p>stands for Model, View and Controller. MVC separates application into three components - Model, View and Controller...</p>
                     </li>
                 </ul>
             </div>
@@ -135,8 +135,8 @@ include('aside.php');
                 <h3 id="N">N</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">NodeJS:</a>
-                        Node.js is an open-source, cross-platform, JavaScript run-time environment that executes JavaScript code outside of a browser...
+                        <a href="../PHP/wildsearch-def.php">NodeJS</a>
+                        <p>Node.js is an open-source, cross-platform, JavaScript run-time environment that executes JavaScript code outside of a browser...</p>
                     </li>
                 </ul>
             </div>
@@ -147,8 +147,8 @@ include('aside.php');
                 <h3 id="P">P</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Product-owner:</a>
-                        the leader responsible for maximizing the value of the products created by a scrum development team....
+                        <a href="../PHP/wildsearch-def.php">Product-owner</a>
+                        <p>the leader responsible for maximizing the value of the products created by a scrum development team....</p>
                     </li>
                 </ul>
             </div>
@@ -159,12 +159,12 @@ include('aside.php');
                 <h3 id="R">R</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">React:</a>
-                        a JavaScript library for building user interfaces. It is maintained by Facebook and...
+                        <a href="../PHP/wildsearch-def.php">React</a>
+                        <p>a JavaScript library for building user interfaces. It is maintained by Facebook and...</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">React Native:</a>
-                        React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android...
+                        <a href="../PHP/wildsearch-def.php">React Native</a>
+                        <p>React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android...</p>
                     </li>
                 </ul>
             </div>
@@ -172,15 +172,16 @@ include('aside.php');
                 <h3 id="S">S</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Scrum:</a>
-                        a framework within which people can address complex adaptive problems, while productively and creatively delivering products...
+                        <a href="../PHP/wildsearch-def.php">Scrum</a>
+                        <p>a framework within which people can address complex adaptive problems, while productively and creatively delivering products...</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Scrum Master:</a>
-                        the person responsible for ensuring Scrum is understood and enacted...
+                        <a href="../PHP/wildsearch-def.php">Scrum Master</a>
+                        <p>the person responsible for ensuring Scrum is understood and enacted...</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">SQL:</a>SQL is a standard language for storing, manipulating and retrieving data in databases...
+                        <a href="../PHP/wildsearch-def.php">SQL</a>
+                        <p>SQL is a standard language for storing, manipulating and retrieving data in databases...</p>
                     </li>
                 </ul>
             </div>
@@ -191,12 +192,12 @@ include('aside.php');
               <h3 id="U">U</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Unix:</a>
-                        a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix...
+                        <a href="../PHP/wildsearch-def.php">Unix</a>
+                        <p>a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix...</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">UX-Design:</a>
-                        User experience design (UX design) is the process of enhancing user satisfaction with by improving the usability, accessibility, and desirability...
+                        <a href="../PHP/wildsearch-def.php">UX-Design</a>
+                        <p>User experience design (UX design) is the process of enhancing user satisfaction with by improving the usability, accessibility, and desirability...</p>
                     </li>
                 </ul>
             </div>
@@ -207,12 +208,12 @@ include('aside.php');
                 <h3 id="W">W</h3>
                 <ul>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">W3C:</a>
-                        stands World Wide Web Consortium (W3C) is the main international standards organization...
+                        <a href="../PHP/wildsearch-def.php">W3C</a>
+                        <p>stands World Wide Web Consortium (W3C) is the main international standards organization...</p>
                     </li>
                     <li>
-                        <a href="../PHP/wildsearch-def.php">Wireframe:</a>
-                        a visual guide that represents the skeletal framework of a website...
+                        <a href="../PHP/wildsearch-def.php">Wireframe</a>
+                        <p>a visual guide that represents the skeletal framework of a website...</p>
                     </li>
                 </ul>
             </div>
