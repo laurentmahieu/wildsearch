@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     //If the validation form pass all the errors
     if( '' == $formErrors['email'] && '' ==  $formErrors['name'] && '' == $formErrors['message'] ){
         $validationForm = true;
-        $formcomplete = '<div>Thank you Wilder for contacting us, we will examine your request as soon as possible !</div>';
+        $formcomplete = '<p>Thank you Wilder for contacting us, we will examine your request as soon as possible !</p>';
 
     }
 }
