@@ -6,7 +6,7 @@ $formErrors = [
     'message' => ''
 ];
 // Init a validation answer
-$formcomplete = '';
+$completeForm = '';
 
 //If I submit my form
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
@@ -46,5 +46,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     if( '' == $formErrors['email'] && '' ==  $formErrors['name'] && '' == $formErrors['message'] ){
         $validationForm = true;
     }
-    $formcomplete = '<div>Thank you Wilder for contacting us, we will examine your request as soon as possible !</div>';
+    $completForm = '<div>Thank you Wilder for contacting us, we will examine your request as soon as possible !</div>';
 }
