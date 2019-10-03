@@ -198,7 +198,7 @@
 #top-search{
   display: flex;
   flex-direction: row;
-
+  height: 40px;
 }
 
 .Search{

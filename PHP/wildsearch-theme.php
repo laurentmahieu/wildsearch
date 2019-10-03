@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../CSS/aside.css">
     <link rel="stylesheet" href="../CSS/search_bar.css">
         <link rel="stylesheet" href="../CSS/card.css">
+        <link rel="styleshee" href="../CSS/stylecarousel.css">
         <link rel="stylesheet" href="../CSS/mobile.css">
         <link rel="icon" href="../IMG/logo_wildsearch.png"> 
         <title>Wild Search</title>
@@ -36,7 +37,7 @@ include('aside.php');
                 <div class="first_view_def">
                    <h4>Git</h4>
                    <a>Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Haman...</a>
-                   <button>Read the definition</button>
+                   <button class="button_theme">Read the definition</button>
                 </div>
            </div>
     
@@ -81,7 +82,7 @@ include('aside.php');
                 <div class="first_view_def">
                    <h4>Apache Subversion</h4>
                    <a>Apache Subversion (often abbreviated SVN, after its command name svn) is a software versioning and revision control system distributed as open source under the Apache License. Software developers use Subversion to maintain...</a>
-                   <button>Read the definition</button>
+                   <button class="button_theme">Read the definition</button>
                 </div>
            </div>
 
@@ -93,7 +94,7 @@ include('aside.php');
             <div class="first_view_def">
                <h4>Linus Torvald</h4>
                <a>Linus Benedict Torvalds, born December 28, 1969 is a Finnish-American software engineer who is the creator and, historically, the principal developer of the Linux kernel, which is the kernel for Linux...</a>
-               <button>Read the definition</button>
+               <button class="button_theme">Read the definition</button>
             </div>
        </div>
     </section>

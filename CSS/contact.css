@@ -32,6 +32,7 @@
 main{
     display: flex;
     padding-bottom: 4em;
+    padding-top: 2em;
 }
 main form{
     display: flex;

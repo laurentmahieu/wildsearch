@@ -59,7 +59,7 @@ a:hover{
 }*/
 
 .button_theme{
-    width: 30%;
+    width: 50%;
     background-color: var(--redButton);
     color: #f9f9f9;
     padding: 3px;
@@ -70,6 +70,7 @@ a:hover{
 
 .button_theme:hover{
     background-color:  var(--redButton);
+    opacity: 0.8;
     cursor: pointer;
 }
 

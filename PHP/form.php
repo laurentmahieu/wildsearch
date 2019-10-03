@@ -6,15 +6,11 @@ $formErrors = [
     'message' => ''
 ];
 // Init a validation answer
-<<<<<<< HEAD
 $hidden ="";
 
 $formcomplete = '';
 
 $validationForm=false;
-=======
-$completeForm = '';
->>>>>>> 572901f686aeb745357c35e45e684a074a514c87
 
 //If I submit my form
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
@@ -56,5 +52,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         $formcomplete = '<p>Thank you Wilder for contacting us, we will examine your request as soon as possible !</p>';
      $hidden = "class= 'hidden'";
     }
-    $completForm = '<div>Thank you Wilder for contacting us, we will examine your request as soon as possible !</div>';
 }

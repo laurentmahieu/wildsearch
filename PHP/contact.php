@@ -46,9 +46,9 @@ require_once('form.php');
                 <?= $formErrors['message']?>
             
             <input class="submit" type="submit" name="Send" value="- Send ! -"/>
-           <?= $completeForm?>
         </form>
-        
+        <?= $formcomplete?>
+
      </main>
     <?php 
 include('footer.php');
