@@ -60,6 +60,7 @@ a:hover{
 
 .button_theme{
     width: 50%;
+    min-width: 150px;
     background-color: var(--redButton);
     color: #f9f9f9;
     padding: 3px;
