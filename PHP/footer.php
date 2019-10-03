@@ -12,11 +12,11 @@
 
         <div id="modal">
             <h1>Top Search</h1>
-            <p>Search n°1:</p>
-            <p>Search n°2:</p>
-            <p>Search n°3:</p>
-            <p>Search n°4:</p>
-            <p>Search n°5:</p>
+            <p>Programmers</p>
+            <p>Integration</p>
+            <p>Repository</p>
+            <p>Developer</p>
+            <p>CSS</p>
             <button id="close" onclick="closeModal()">X</button>
         </div>
         
