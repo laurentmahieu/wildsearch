@@ -13,7 +13,7 @@ html {
     --color-headings: #0077FF;
     --bg-aside: #eee;
     --color-h3-: rgb(139, 139, 139);
-
+    --boxShadow: #f99797;
 }
 
 html[data-theme='dark'] {
@@ -27,7 +27,7 @@ html[data-theme='dark'] {
     --varela: 'Varela Round', sans-serif;
     --bg-aside: #424242; 
     --color-text: white;
-    
+    --boxShadow: none;
 }
 
 main{
@@ -66,7 +66,7 @@ main {
 
 main>img{
     width: 10rem;
-    margin: 0 auto;
+    margin: 50px auto;
     box-shadow: 1px 2px 2px var(--redButton);
 }
 
@@ -89,7 +89,7 @@ header #logomobil{
 }
 
 
-/* STYLE FOR SEARCH BAR */
+/* STYLE FOR SEARCH BAR
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 .search {
@@ -118,7 +118,7 @@ header #logomobil{
     position: absolute;
     top: 10px;
     left: 10px;
-}
+}*/
 
 /* STYLE FOR SEARCH BAR */
 
@@ -143,7 +143,7 @@ footer {
     color: beige;
     font-weight: 700;
     text-decoration: none;
-    font-family: var(--valera);
+    font-family: var(--varela);
 }
 
 .left a:hover {
@@ -242,9 +242,10 @@ html.transition *:after {
 
 
 .icon-sun{
-    height: 110 %;
+    height: 110%;
     margin-top: 3%;
 }
+
 .icon-moon{
     height: 150%;
 }

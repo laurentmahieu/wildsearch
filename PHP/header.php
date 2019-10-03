@@ -21,5 +21,16 @@
         <div class="x-down"></div>
       </div>
     </div>
+    <ul id="top-search">
+      
+        <img id="topsearchDesktoplogo" src="../IMG/bouton_top_recherches_mobile.png" onclick="openModal()" title="Search" alt="Top search"/>
+        <h3 class="Search">Top Search</h3>
+        <a href="">Programmers</a>
+        <a href="">Integration</a>
+        <a href="">Repository</a>
+        <a href="">Developer</a>
+        <a href="">Back-End</a>
+      
+    </ul>
   </fieldset>
 </header>

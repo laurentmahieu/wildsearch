@@ -20,7 +20,7 @@
             <button id="close" onclick="closeModal()">X</button>
         </div>
         
-        <a href="#"><img src="../IMG/1568807886004_bouton contact mobile.png" title="Contact" alt="Contact"/></a>
+        <a href="../PHP/contact.php"><img src="../IMG/1568807886004_bouton contact mobile.png" title="Contact" alt="Contact"/></a>
     </nav>
     <!-- fin du nav mobile-->
     <section>
