@@ -188,7 +188,7 @@ input[type=checkbox]{
 	visibility: hidden;
 }
 
-label {
+.toggle-container label {
 	cursor: pointer;
 	text-indent: -9999px;
 	width: 52px;
@@ -242,9 +242,10 @@ html.transition *:after {
 
 
 .icon-sun{
-    height: 110 %;
+    height: 110%;
     margin-top: 3%;
 }
+
 .icon-moon{
     height: 150%;
 }

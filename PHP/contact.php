@@ -23,22 +23,33 @@ include('header.php');
 ?>
 <?php 
 include('aside.php');
-?>    
-   
+require_once('form.php');
+?>
+
     <main>
         <!-- Contact part -->
-        <h3 id="titlecontact">Contact</h3>
-        <form autocomplete="on" action="" method="POST">
-            <input type="email" name="e-mail" placeholder="Your E-mail @ddress" required/>
-            <input type="text" name="name" placeholder="Your Name" required/>
-            <select>
-                <option value="questions">Any question ?</option>
-                <option value="comments">Any comments ? </option>
-            </select>
-            <textarea placeholder="<!-- Leave your message here ! -->" required></textarea>
-            <input class="submit" type="submit" name="Send" value="- Send ! -"/> 
+        <h3>Contact</h3>
+        <form action="" method="POST">
+            
+                <input type="email" name="email" placeholder="Your E-mail @ddress" />
+                <?= $formErrors['email']?>            
+            
+                <input type="text" name="name" placeholder="Your Name" />
+                <?= $formErrors['name']?>
+         
+                <select name="question">
+                    <option value="questions">Any questions?</option>
+                    <option value="comments">Any comments?</option>
+                </select>
+            
+                <textarea name="message" rows="5" cols="40" placeholder="<!-- Leave your message here ! -->" ></textarea>
+                <?= $formErrors['message']?>
+            
+            <input class="submit" type="submit" name="Send" value="- Send ! -"/>
+           <?= $formcomplete?>
         </form>
-    </main>
+        
+     </main>
     <?php 
 include('footer.php');
 ?>
