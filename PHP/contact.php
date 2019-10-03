@@ -29,10 +29,10 @@ require_once('form.php');
     <main>
         <!-- Contact part -->
         <h3>Contact</h3>
-        <form action="" method="POST">
+        <form <?=  $hidden ?>action="" method="POST">
             
                 <input type="email" name="email" placeholder="Your E-mail @ddress" />
-                <?= $formErrors['email']?>            
+                <?= $formErrors['email']?>
             
                 <input type="text" name="name" placeholder="Your Name" />
                 <?= $formErrors['name']?>

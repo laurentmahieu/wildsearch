@@ -19,9 +19,19 @@
     <title>Wild Search</title>
 </head>
 <?php
-require_once 'connec.php';
+require_once '../PHP/connec.php';
 
-$pdo = new \PDO(DSN, USER, PASS);
+try {
+    $pdo = new \PDO(DSN, USER, PASS);
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
+}
+//prepare
+
+$sql2= "SELECT * FROM definitions;";
+$q2 = $pdo->query($sql2);
+$r2 = $q2->fetchAll();
+
 ?>
 <?php
 include('header.php');
@@ -37,15 +47,25 @@ include('lettersTable.php');
     <article id="lettersLeft">
 
         <?php
-        foreach ($alphabetLeft as $letters => $words) {
-            echo '<div class="letter">';
-            echo '<h3 id="' . $letters . '">' . $letters . '</h3>';
-            echo '<ul>';
-                foreach($words as $word){
-                    echo '<li>';
-                    echo '<a href="'.$word[1].'">'.$word[0].'</a>';
-                    echo '<p>'.$word[2].'</p>';
+        foreach ($alphabetLeft as $letters=>$word) {
+
+                echo '<div class="letter">';
+                echo '<h3 id="' . $letters . '">' . $letters . '</h3>';
+
+                foreach ($r2 as $myWord){
+                    echo '<ul>';
+
+                    if ($letters == substr($myWord['word'],0,1)) {
+
+                            echo '<li>';
+                            echo '<a href="../PHP/wildsearch-def.php">' . $myWord['word'] . '</a>';
+                            echo '<p>' . $myWord['smallDef'] . '</p>';
+
+                    }
+                    echo '</ul>';
                 }
+
+
         }
         ?>
 
@@ -54,15 +74,25 @@ include('lettersTable.php');
 
         <article id="lettersRight">
             <?php
-            foreach ($alphabetRight as $letters => $words) {
+            foreach ($alphabetRight as $letters=>$word) {
+
                 echo '<div class="letter">';
                 echo '<h3 id="' . $letters . '">' . $letters . '</h3>';
-                echo '<ul>';
-                foreach($words as $word){
-                    echo '<li>';
-                    echo '<a href="'.$word[1].'">'.$word[0].'</a>';
-                    echo '<p>'.$word[2].'</p>';
+
+                foreach ($r2 as $myWord){
+                    echo '<ul>';
+
+                    if ($letters == substr($myWord['word'],0,1)) {
+
+                        echo '<li>';
+                        echo '<a href="../PHP/wildsearch-def.php">' . $myWord['word'] . '</a>';
+                        echo '<p>' . $myWord['smallDef'] . '</p>';
+
+                    }
+                    echo '</ul>';
                 }
+
+
             }
             ?>
         </article>

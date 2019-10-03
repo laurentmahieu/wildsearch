@@ -6,6 +6,8 @@ $formErrors = [
     'message' => ''
 ];
 // Init a validation answer
+$hidden ="";
+
 $formcomplete = '';
 
 $validationForm=false;
@@ -48,6 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     if( '' == $formErrors['email'] && '' ==  $formErrors['name'] && '' == $formErrors['message'] ){
         $validationForm = true;
         $formcomplete = '<p>Thank you Wilder for contacting us, we will examine your request as soon as possible !</p>';
-
+     $hidden = "class= 'hidden'";
     }
 }

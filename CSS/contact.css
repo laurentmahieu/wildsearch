@@ -68,7 +68,18 @@ textarea{
     cursor: pointer;
     opacity: 0.8;
 }
+.hidden {
+    display: none;
+}
 
+main > p { 
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    font-family: var(--varela);
+    color: var(--color-text);
+
+}
 /* Style for Contact part*/
 
 
