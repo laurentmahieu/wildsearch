@@ -8,7 +8,6 @@
                 <li><a href="../PHP/wildsearch-theme.php">JavaScript</a></li>
                 <li><a href="../PHP/wildsearch-theme.php">PHP</a></li>
                 <li><a href="../PHP/wildsearch-theme.php">SQL</a></li>
-                <li><a href="../PHP/wildsearch-theme.php">php</a></li>
                 <li><a href="../PHP/wildsearch-theme.php">CSS</a></li>
             </ul>
         </section>
